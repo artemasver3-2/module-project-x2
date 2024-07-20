@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kristi&family=Lexend:wght@100..900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+
+
+.alex-page-div {
+background-image: url("https://i.ibb.co/9wPgkM8/New-Project-22.png");
+background-size: 25%;
+}
+
+.alex-body {
+width: 85vw;
+height: 100%;
+border: solid 2px #00492e;
+margin: 0 auto;
+margin-top: 1%;
+background-color: black;
+margin-bottom: 1rem;
+padding-top: 2%;
+border-radius: 5px;
+margin-bottom: 2rem;
+}
+
+@media only screen and (max-width : 460px)  {
+    .alex-page-div {
+        background-size: 55%;
+        background-image: url("https://i.ibb.co/9wPgkM8/New-Project-22.png");
+    }
+    nav {
+        padding-bottom: 1rem;
+    }
+    .alex-body {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+  };
+

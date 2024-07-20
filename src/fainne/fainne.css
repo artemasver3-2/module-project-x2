@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kristi&family=Lexend:wght@100..900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+
+
+.fainne-page-div {
+background-image: url("https://png.pngtree.com/png-clipart/20230926/original/pngtree-bronzeoutlined-black-leaves-and-whitered-roses-in-a-repeating-floral-pattern-png-image_12879900.png");
+background-size: 25%;
+}
+
+.fainne-body {
+width: 85vw;
+height: 100%;
+border: solid 2px #A71515;
+margin: 0 auto;
+margin-top: 1%;
+background-color: black;
+margin-bottom: 1rem;
+padding-top: 2%;
+border-radius: 5px;
+margin-bottom: 2rem;
+}
+
+@media only screen and (max-width : 460px)  {
+    .fainne-page-div {
+        background-size: 85%;
+        background-image: url("https://png.pngtree.com/png-clipart/20230926/original/pngtree-bronzeoutlined-black-leaves-and-whitered-roses-in-a-repeating-floral-pattern-png-image_12879900.png");
+    }
+    nav {
+        padding-bottom: 1rem;
+    }
+    .fainne-body {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+  };
