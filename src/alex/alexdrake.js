@@ -7,8 +7,6 @@ import Nav from '../app/nav';
 const StyledHeader = styled.header`
 background-color: #000000;
 min-height: 15vh;
-display: flex;
-flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 2px solid #00492e;
