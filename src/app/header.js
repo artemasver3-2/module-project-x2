@@ -32,6 +32,7 @@ transition: 1s ease-in;
   opacity: 1;
 } 
 
+
 @media only screen and (max-width : 460px)  {
   font-size: 2.5rem;
   margin-bottom: 3.75rem;
@@ -47,12 +48,6 @@ color: white;
 margin-top: -4.5rem;
 margin-left: 20rem;
 letter-spacing: 2px;
-transition: 1s ease-in;
-&:hover{
-  color: #980002;
-  text-decoration: line-through;
-  opacity: 1;
-} 
 
 @media only screen and (max-width : 460px)  {
   font-size: 1.25rem;
