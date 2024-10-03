@@ -13,7 +13,6 @@ border-bottom: 2px solid #62AB37;
 transition: 1s ease-in;
 &:hover{
   color: #980002;
-  text-decoration: line-through;
   opacity: 1;
 } 
 
