@@ -27,6 +27,10 @@ color: #A71515;
 text-decoration: none;
 letter-spacing: rem;
 margin-top: 1rem;
+&:hover,
+&:focus {
+    color: darkgreen;
+}  
 
 @media only screen and (max-width : 460px)  {
   font-size: 2.5rem;
