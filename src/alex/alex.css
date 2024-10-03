@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kristi&family=Lexend:wght@100..900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
 
+
+body {
+    margin: 0;
+  }
+
 .alex-page-div {
   background-image: url('https://i.ibb.co/9wPgkM8/New-Project-22.png');
 }
@@ -22,7 +27,7 @@
   place-content: center;
   background-color: var(000000);
   min-height: 15vh;
-  font-family: ' Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: clamp(4.5rem, 1rem + 18vw, 15rem);
   font-weight: 700;
   text-transform: uppercase;
@@ -30,7 +35,7 @@
 }
 
 .wrapper > div {
-  grid-area: 3/3/-3/-3;
+  grid-area: 1/1/-1/-1;
 }
 .top {
   clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
@@ -38,8 +43,8 @@
 .bottom {
   clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
   color: transparent;
-  background: -webkit-linear-gradient(177deg, black 53%, var(--text-color) 65%);
-  background: linear-gradient(177deg, black 53%, var(--text-color) 65%);
+  background: -webkit-linear-gradient(177deg, black 53%, var(00492e) 65%);
+  background: linear-gradient(177deg, black 53%, var(00492e) 65%);
   background-clip: text;
   -webkit-background-clip: text;
   transform: translateX(-0.02em);
