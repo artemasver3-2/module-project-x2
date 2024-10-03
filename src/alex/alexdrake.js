@@ -100,11 +100,15 @@ export default class AlexDrake extends React.Component {
   render() {
     return (
         <div className='alex-page-div'>
-      <StyledHeader>
-        <StyledTitle>The Outsiders</StyledTitle>
-        <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle>
-        <Nav />
+   <StyledHeader>
+      <section className="wrapper">
+      <div className="top"><StyledTitle>The Outsiders</StyledTitle></div>
+      <div className="bottom"><StyledTitle>The Outsiders</StyledTitle></div>
+      </section>
+      <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle> 
+      <Nav />
       </StyledHeader>
+     
 
        <div className='alex-body'>
         <AlexCard 

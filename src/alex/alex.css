@@ -1,29 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kristi&family=Lexend:wght@100..900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
 
-
 .alex-page-div {
-background-image: url("https://i.ibb.co/9wPgkM8/New-Project-22.png");
+  background-image: url('https://i.ibb.co/9wPgkM8/New-Project-22.png');
 }
 
 .alex-body {
-width: 85vw;
-height: 100%;
-border: solid 2px #00492e;
-margin: 0 auto;
-margin-top: 1%;
-background-color: black;
-margin-bottom: 1rem;
-padding-top: 2%;
-border-radius: 5px;
-margin-bottom: 2rem;
+  width: 85vw;
+  height: 100%;
+  border: solid 2px #00492e;
+  margin: 0 auto;
+  margin-top: 1%;
+  background-color: black;
+  margin-bottom: 1rem;
+  padding-top: 2%;
+  border-radius: 5px;
+  margin-bottom: 2rem;
 }
 
+.wrapper {
+  display: grid;
+  place-content: center;
+  background-color: var(--background-color);
+  min-height: 100vh;
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(1.5rem, 1rem + 18vw, 15rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
 
-@media only screen and (min-width : 60px)  {
-    .alex-page-div {
-        background-size: 35%;
-        background-image: url("https://i.ibb.co/9wPgkM8/New-Project-22.png");
-    }
-  };
+.wrapper > div {
+  grid-area: 1/1/-1/-1;
+}
+.top {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+}
+.bottom {
+  clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+  color: transparent;
+  background: -webkit-linear-gradient(177deg, black 53%, var(--text-color) 65%);
+  background: linear-gradient(177deg, black 53%, var(--text-color) 65%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transform: translateX(-0.02em);
+}
 
-
+@media only screen and (min-width: 60px) {
+  .alex-page-div {
+    background-size: 35%;
+    background-image: url('https://i.ibb.co/9wPgkM8/New-Project-22.png');
+  }
+}

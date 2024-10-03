@@ -10,11 +10,6 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 2px solid #62AB37;
-transition: 1s ease-in;
-&:hover{
-  color: #980002;
-  opacity: 1;
-} 
 
 
 @media only screen and (max-width : 460px)  {
@@ -68,7 +63,6 @@ export default class Header extends React.Component {
       <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle> 
       <Nav />
       </StyledHeader>
-     
     );
   }
 }
