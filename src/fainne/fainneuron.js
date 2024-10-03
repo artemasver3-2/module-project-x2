@@ -31,7 +31,7 @@ margin-top: 1rem;
 &:focus {
   color: darkgreen;
   opacity: 1;
-  transition: opacity ease-in-ease-in-out;
+  transition: opacity ease-in-ease-in-out 2s;
 }  
 
 @media only screen and (max-width : 460px)  {
