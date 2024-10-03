@@ -29,8 +29,11 @@ letter-spacing: rem;
 margin-top: 1rem;
 &:hover,
 &:focus {
-    color: darkgreen;
-    transition: fade-in 0.25s ease-out;
+  color: darkgreen;
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 }  
 
 @media only screen and (max-width : 460px)  {
