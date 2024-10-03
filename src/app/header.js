@@ -10,6 +10,12 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 2px solid #62AB37;
+transition: 1s ease-in-out;
+&:hover{
+  color: #062514;
+  text-decoration: line-through;
+  opacity: 1;
+} 
 
 
 @media only screen and (max-width : 460px)  {
