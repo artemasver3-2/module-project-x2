@@ -27,11 +27,12 @@ color: #A71515;
 text-decoration: none;
 letter-spacing: rem;
 margin-top: 1rem;
-
 &:hover,
 &:focus {
   color: darkgreen;
-  animation: fadeIn 2s;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
 }  
 
 @media only screen and (max-width : 460px)  {
