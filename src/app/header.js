@@ -10,12 +10,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 2px solid #62AB37;
-transition: 1s ease-in-out;
-&:hover{
-  color: #980002;
-  text-decoration: line-through;
-  opacity: 1;
-} 
+
 
 
 @media only screen and (max-width : 460px)  {
@@ -30,6 +25,12 @@ font-family: Bebas Neue;
 color: #62ab37;
 text-decoration: none;
 margin-top: .5rem;
+transition: 1s ease-in;
+&:hover{
+  color: #980002;
+  text-decoration: line-through;
+  opacity: 1;
+} 
 
 @media only screen and (max-width : 460px)  {
   font-size: 2.5rem;
@@ -46,6 +47,12 @@ color: white;
 margin-top: -4.5rem;
 margin-left: 20rem;
 letter-spacing: 2px;
+transition: 1s ease-in;
+&:hover{
+  color: #980002;
+  text-decoration: line-through;
+  opacity: 1;
+} 
 
 @media only screen and (max-width : 460px)  {
   font-size: 1.25rem;
