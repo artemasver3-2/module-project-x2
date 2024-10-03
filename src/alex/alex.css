@@ -25,7 +25,7 @@
 }
 
 .wrapper > div {
-  grid-area: 5/5/-5/-5;
+  grid-area: 1/1/-1/-1;
 }
 .top {
   clip-path: polygon(10% 10%, 100% 10%, 100% 48%, 10% 58%);
