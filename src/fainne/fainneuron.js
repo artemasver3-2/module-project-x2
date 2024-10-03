@@ -30,6 +30,7 @@ margin-top: 1rem;
 &:hover,
 &:focus {
     color: darkgreen;
+    transition: fade-in 0.25s ease-out;
 }  
 
 @media only screen and (max-width : 460px)  {
