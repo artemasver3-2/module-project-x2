@@ -7,7 +7,8 @@ import Nav from '../app/nav';
 const StyledHeader = styled.header`
 background-color: #000000;
 min-height: 15vh;
-display: grid;
+display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 2px solid #00492e;
@@ -99,14 +100,13 @@ export default class AlexDrake extends React.Component {
   render() {
     return (
         <div className='alex-page-div'>
-   <StyledHeader>
+    <StyledHeader>
       <section className="wrapper">
       <div className="top"><StyledTitle>The Outsiders</StyledTitle></div>
-      <div className="bottom" aria-hidden="true"><StyledTitle>The Outsiders</StyledTitle></div>
       </section>
       <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle> 
       <Nav />
-      </StyledHeader>
+    </StyledHeader>
      
 
        <div className='alex-body'>
