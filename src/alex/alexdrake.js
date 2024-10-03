@@ -100,13 +100,14 @@ export default class AlexDrake extends React.Component {
   render() {
     return (
         <div className='alex-page-div'>
-    <StyledHeader>
+   <StyledHeader>
       <section className="wrapper">
       <div className="top"><StyledTitle>The Outsiders</StyledTitle></div>
+      <div className="bottom" aria-hidden="true"><StyledTitle>The Outsiders</StyledTitle></div>
       </section>
       <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle> 
       <Nav />
-    </StyledHeader>
+  </StyledHeader>
      
 
        <div className='alex-body'>
