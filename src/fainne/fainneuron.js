@@ -27,6 +27,7 @@ color: #A71515;
 text-decoration: none;
 letter-spacing: rem;
 margin-top: 1rem;
+animation: fadeIn 2s;
 &:hover,
 &:focus {
   color: darkgreen;
@@ -34,6 +35,26 @@ margin-top: 1rem;
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+  
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 }  
 
 @media only screen and (max-width : 460px)  {
