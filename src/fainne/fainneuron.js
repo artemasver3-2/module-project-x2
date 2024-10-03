@@ -27,10 +27,10 @@ color: #A71515;
 text-decoration: none;
 letter-spacing: rem;
 margin-top: 1rem;
+  transition: 1s ease-in-out;
 &:hover{
   color: #062514;
   opacity: 1;
-  transition: 1s ease-in-out;
 } 
 
 @media only screen and (max-width : 460px)  {

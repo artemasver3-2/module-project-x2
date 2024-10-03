@@ -10,7 +10,7 @@ import Holly from '../holly/holly';
 import Isa from '../isa/isa';
 import Bael from '../bael/bael';
 import ScrollToTop from './scroll';
-
+///// listen bitch import styled components out of files at some point ok thx
 class App extends React.Component {
   constructor () {
     super() 
