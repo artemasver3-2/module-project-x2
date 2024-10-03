@@ -33,8 +33,8 @@
 .bottom {
   clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
   color: transparent;
-  background: -webkit-linear-gradient(225deg, black 53%, #00492e 65%);
-  background: linear-gradient(225deg, black 53%, #00492e 65%);
+  background: -webkit-linear-gradient(25deg, black 53%, #00492e 65%);
+  background: linear-gradient(25deg, black 53%, #00492e 65%);
   background-clip: text;
   -webkit-background-clip: text;
   transform: translateX(-0.02em);
