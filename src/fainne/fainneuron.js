@@ -28,9 +28,9 @@ text-decoration: none;
 letter-spacing: rem;
 margin-top: 1rem;
 &:hover{
-  color: darkgreen;
+  color: #062514;
   opacity: 1;
-  transition: 1s ease-in-out;
+  transition: 1s ease-in 1s ease-out;
 } 
 
 @media only screen and (max-width : 460px)  {
