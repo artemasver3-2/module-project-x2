@@ -19,7 +19,7 @@ border-radius: 5px;
 margin-bottom: 2rem;
 }
 
-/* @media only screen and (max-width : 460px)  {
+@media only screen and (max-width : 460px)  {
     .holly-page-div {
         background-size: 75%;
         background-image: url("https://st2.depositphotos.com/6025596/9352/v/600/depositphotos_93523038-stock-illustration-seamless-de-lis.jpg");
@@ -31,4 +31,13 @@ margin-bottom: 2rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-  }; */
+  };
+
+  @media only screen and (max-width : 2560px)  {
+    .holly-page-div {
+        background-size: 75%;
+        background-image: url("https://st2.depositphotos.com/6025596/9352/v/600/depositphotos_93523038-stock-illustration-seamless-de-lis.jpg");
+    }
+  };
+
+  
