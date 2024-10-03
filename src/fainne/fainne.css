@@ -20,7 +20,7 @@ margin-bottom: 2rem;
 
 @media only screen and (min-width : 60px)  {
     .fainne-page-div {
-        background-size: 45%;
+        background-size: 35%;
         background-image: url("https://png.pngtree.com/png-clipart/20230926/original/pngtree-bronzeoutlined-black-leaves-and-whitered-roses-in-a-repeating-floral-pattern-png-image_12879900.png");
     }
   };
