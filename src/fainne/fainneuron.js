@@ -30,9 +30,8 @@ margin-top: 1rem;
 &:hover,
 &:focus {
   color: darkgreen;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
+  opacity: 1;
+  transition: opacity 0.5s linear;
 }  
 
 @media only screen and (max-width : 460px)  {
