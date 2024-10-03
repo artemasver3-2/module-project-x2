@@ -30,7 +30,7 @@ margin-top: 1rem;
 &:hover{
   color: #062514;
   opacity: 1;
-  transition: 1s ease-in 1s ease-out;
+  transition: 1s ease-in-out;
 } 
 
 @media only screen and (max-width : 460px)  {
