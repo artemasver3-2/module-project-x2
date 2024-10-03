@@ -10,9 +10,9 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 2px solid #62AB37;
-transition: 1s ease-in-out;
+transition: 1s ease-in;
 &:hover{
-  color: #062514;
+  color: #980002;
   text-decoration: line-through;
   opacity: 1;
 } 
