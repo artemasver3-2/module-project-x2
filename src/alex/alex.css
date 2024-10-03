@@ -23,12 +23,12 @@ margin-bottom: 2rem;
   display: grid;
   place-content: center;
   background-color: var(000000);
-  min-height: 100vh;
+  min-height: 10vh;
   font-family: "Bebas Neue", sans-serif;
   font-size: clamp(1.5rem, 1rem + 18vw, 15rem);
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
-  color: var(--text-color);
+  color: var(#00492e);
 }
 
 .wrapper > div {
