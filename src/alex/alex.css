@@ -28,10 +28,10 @@
   grid-area: 15/15/-15/-15;
 }
 .top {
-  clip-path: polygon(20% 20%, 100% 20%, 100% 48%, 20% 58%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
 }
 .bottom {
-  clip-path: polygon(20% 60%, 100% 50%, 100% 100%, 20% 100%);
+  clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
   color: transparent;
   background: -webkit-linear-gradient(225deg, black 53%, #00492e 65%);
   background: linear-gradient(225deg, black 53%, #00492e 65%);
