@@ -21,20 +21,20 @@
   display: grid;
   place-content: center;
   background-color: #000000;
-  min-height: 10vh;
+  min-height: 5vh;
 }
 
 .wrapper > div {
-  grid-area: 1/1/-1/-1;
+  grid-area: 5/5/-5/-5;
 }
 .top {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+  clip-path: polygon(10% 10%, 100% 10%, 100% 48%, 10% 58%);
 }
 .bottom {
-  clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+  clip-path: polygon(10% 60%, 100% 50%, 100% 100%, 10% 100%);
   color: transparent;
-  background: -webkit-linear-gradient(177deg, black 53%, #00492e 65%);
-  background: linear-gradient(177deg, black 53%, #00492e 65%);
+  background: -webkit-linear-gradient(195deg, black 53%, #00492e 65%);
+  background: linear-gradient(195deg, black 53%, #00492e 65%);
   background-clip: text;
   -webkit-background-clip: text;
   transform: translateX(-0.02em);
