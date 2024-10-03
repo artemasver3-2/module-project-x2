@@ -3,7 +3,6 @@
 
 .alex-page-div {
 background-image: url("https://i.ibb.co/9wPgkM8/New-Project-22.png");
-background-size: 25%;
 }
 
 .alex-body {
@@ -19,17 +18,12 @@ border-radius: 5px;
 margin-bottom: 2rem;
 }
 
-@media only screen and (max-width : 460px)  {
+
+@media only screen and (min-width : 60px)  {
     .alex-page-div {
-        background-size: 55%;
-        background-image: url("https://i.ibb.co/9wPgkM8/New-Project-22.png");
-    }
-    nav {
-        padding-bottom: 1rem;
-    }
-    .alex-body {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        background-size: 35%;
+        background-image: url("https://st2.depositphotos.com/6025596/9352/v/600/depositphotos_93523038-stock-illustration-seamless-de-lis.jpg");
     }
   };
+
 

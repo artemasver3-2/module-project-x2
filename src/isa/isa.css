@@ -3,7 +3,6 @@
 
 .isa-page-div {
 background-image: url("https://i.postimg.cc/BngVkqMx/400337798-1030390304896888-2918608143978703467-n.png");
-background-size: 25%;
 }
 
 .isa-body {
@@ -19,16 +18,9 @@ border-radius: 5px;
 margin-bottom: 2rem;
 }
 
-@media only screen and (max-width : 460px)  {
+@media only screen and (min-width : 60px)  {
     .isa-page-div {
         background-size: 55%;
         background-image: url("https://i.postimg.cc/BngVkqMx/400337798-1030390304896888-2918608143978703467-n.png");
-    }
-    nav {
-        padding-bottom: 1rem;
-    }
-    .isa-body {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
     }
   };
