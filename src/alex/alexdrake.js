@@ -117,8 +117,8 @@ export default class AlexDrake extends React.Component {
         <div className='alex-page-div'>
    <StyledHeader>
       <StyledWrapper>
-      <div className="top"><StyledTitle>The Outsiders</StyledTitle></div>
-      <div className="bottom" aria-hidden="true"><StyledTitle>The Outsiders</StyledTitle></div>
+      <div className="top">The Outsiders</div>
+      <div className="bottom" aria-hidden="true">The Outsiders</div>
       </StyledWrapper>
       <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle> 
       <Nav />
