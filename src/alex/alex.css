@@ -24,7 +24,7 @@
   min-height: 5vh;
 }
 
-.wrapper > div {
+.wrapper > .alex-page-div {
   grid-area: 15/15/-15/-15;
 }
 .top {
