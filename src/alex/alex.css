@@ -33,11 +33,6 @@
 }
 .top {
   clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
-  color: transparent;
-  background: -webkit-linear-gradient(75deg, #00492e 45%, black 55%,);
-  background: linear-gradient(75deg,#00492e 45%, black 55%,);
-  background-clip: text;
-  -webkit-background-clip: text;
 }
 .bottom {
   clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
