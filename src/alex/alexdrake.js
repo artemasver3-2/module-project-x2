@@ -19,33 +19,26 @@ border-bottom: 2px solid #00492e;
 };
 `;
 
-const StyledTitle = styled.h1`
-font-size: 4.5rem;
-font-family: Bebas Neue;
-color: #00492e;
-text-decoration: none;
-margin-top: 1rem;
+// const StyledTitle = styled.h1`
+// font-size: 4.5rem;
+// font-family: Bebas Neue;
+// color: #00492e;
+// text-decoration: none;
+// margin-top: 1rem;
 
 
-@media only screen and (max-width : 460px)  {
-  font-size: 2.5rem;
-  margin-bottom: 3.75rem;
-  margin-top: 2px;
-};
-`;
+// @media only screen and (max-width : 460px)  {
+//   font-size: 2.5rem;
+//   margin-bottom: 3.75rem;
+//   margin-top: 2px;
+// };
+// `;
 
 // const StyledWrapper = styled.div`
 //   display: grid;
 //   place-content: center;
 //   background-color: #000000;
 //   min-height: 5vh;
-//   &:{
-
-//   }
-// `
-
-// const StyledTop = styled.div`
-//  clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
 // `
 
 const StyledSubtitle = styled.h2`
@@ -116,10 +109,10 @@ export default class AlexDrake extends React.Component {
     return (
         <div className='alex-page-div'>
    <StyledHeader>
-      <StyledWrapper>
+      <section className="wrapper">
       <div className="top">The Outsiders</div>
       <div className="bottom" aria-hidden="true">The Outsiders</div>
-      </StyledWrapper>
+      </section>
       <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle> 
       <Nav />
   </StyledHeader>
