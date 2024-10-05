@@ -24,8 +24,8 @@
   min-height: 5vh;
 }
 
-.wrapper > .alex-page-div {
-  grid-area: 15/15/-15/-15;
+.wrapper > StyledHeader {
+  grid-area: 1/1/-1/-1;
 }
 .top {
   clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
@@ -37,7 +37,7 @@
   background: linear-gradient(25deg, black 53%, #00492e 65%);
   background-clip: text;
   -webkit-background-clip: text;
-  transform: translateX(-0.02em);
+  transform: translateX(-0.08em);
 }
 
 @media only screen and (min-width: 60px) {
