@@ -46,7 +46,8 @@ font-size: 2rem;
 font-style: italic;
 font-family: Kristi;
 color: white;
-margin-top: -4.5rem;
+margin-top: -1.5rem;
+margin-bottom: .5rem;
 margin-left: 20rem;
 letter-spacing: 2px;
 
