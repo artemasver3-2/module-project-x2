@@ -27,11 +27,10 @@ const StyledTitle = styled.h1`
   letter-spacing: rem;
   margin-top: 1rem;
   transition: 1s ease-in-out;
-  background: linear-gradient(to right, a71515 50%, white 062514%);
-  background-size: 200% 100%;
-  background-position: right bottom;
+
   &:hover {
     opacity: 1;
+    background: linear-gradient(to right, a71515 50%, 062514 50%);
   }
 
   @media only screen and (max-width: 460px) {
