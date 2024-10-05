@@ -37,12 +37,12 @@
 .bottom {
   clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
   color: transparent;
-  background: -webkit-linear-gradient(125deg, black 53%, #00492e 65%);
-  background: linear-gradient(125deg, black 53%, #00492e 65%);
+  background: -webkit-linear-gradient(55deg, black 23%, #00492e 65%);
+  background: linear-gradient(55deg, black 23%, #00492e 65%);
   background-clip: text;
   -webkit-background-clip: text;
   transform: translateX(-0.02em);
-  margin-top: -1rem;
+  margin-top: -4rem;
 }
 
 @media only screen and (min-width: 60px) {
