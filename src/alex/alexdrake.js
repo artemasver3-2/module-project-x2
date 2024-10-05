@@ -19,20 +19,16 @@ border-bottom: 2px solid #00492e;
 };
 `;
 
-const StyledTitle = styled.h1`
-font-size: 4.5rem;
-font-family: Bebas Neue;
-color: #00492e;
-text-decoration: none;
-margin-top: 1rem;
+// const StyledTitle = styled.h1`
 
 
-@media only screen and (max-width : 460px)  {
-  font-size: 2.5rem;
-  margin-bottom: 3.75rem;
-  margin-top: 2px;
-};
-`;
+
+// @media only screen and (max-width : 460px)  {
+//   font-size: 2.5rem;
+//   margin-bottom: 3.75rem;
+//   margin-top: 2px;
+// };
+// `;
 
 // const StyledWrapper = styled.div`
 //   display: grid;
