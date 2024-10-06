@@ -77,7 +77,9 @@ constructor(props) {
         <StyledCard> 
             <StyledTitleCard>{this.props.title}</StyledTitleCard>
             <StyledSubtitleCard>{this.props.subtitle}</StyledSubtitleCard>
-            <StyledCardInfo>{this.props.info}</StyledCardInfo>
+            <StyledCardInfo>{
+              this.info.map((word) => {<div>`${word}`</div>})
+              }</StyledCardInfo>
         </StyledCard>
     </div>
     );
