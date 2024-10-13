@@ -45,7 +45,7 @@ transform: 3.5s ease-in-out infinite;
 &
 ::after {
     opacity: 0.65;
-    filter: blur(0.20em);
+    filter: blur(2rem);
     transform: translate(-50%, -50%) rotateX(21deg);
     animation: floatBelow;
     -webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
