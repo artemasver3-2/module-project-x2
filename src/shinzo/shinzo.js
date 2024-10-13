@@ -38,34 +38,16 @@ const StyledTitle = styled.h1`
     text-shadow: 0.01em 0.01em 0.01em rgba(0, 0, 0, 0.3);
 }
 &::before {
-  animation: floatAbove 3.5s ease-in-out infinite;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
             clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
 }
 &::after {
     opacity: 0.95;
     transform: translate(-50%, -50%), rotateX(21deg);
-    animation: floatBelow 3.5s ease-in-out infinite;
     -webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
             clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
 }
 
-
-@keyframes floatAbove {
-    50% {
-        transform: translate(-50%, -60%);
-        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 60%);
-                clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 60%);
-    }
-}
-
-@keyframes floatBelow {
-    50% {
-        transform: translate(-50%, -60%) rotateX(10deg);
-        -webkit-clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
-                clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
-    }
-}
 
 
 @media only screen and (max-width : 460px)  {
