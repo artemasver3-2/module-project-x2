@@ -20,17 +20,17 @@ border-bottom: 2px solid #011120;
 `;
 
 const StyledTitle = styled.h1`
-font-family: Bebas Neue;
-font-size: 4.5rem;
-font-weight: 700;
-color: #011120;
-margin-top: 3rem;
-margin-bottom: 7rem;
-text-transform: uppercase;
-perspective: 500px;
-&:before,
-:after {
-    content: attr(aria-label);
+   position: relative;
+    font-family: Bebas Neue, Arial, sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #011120;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    perspective: 500px;
+&::before,
+::after {
+  content: attr(aria-label);
     position: absolute;
     top: 0;
     left: 0;
@@ -38,7 +38,7 @@ perspective: 500px;
     text-shadow: 0.01em 0.01em 0.01em rgba(0, 0, 0, 0.3);
 }
 &::before {
-    animation: floatAbove 3.5s ease-in-out infinite;
+  animation: floatAbove 3.5s ease-in-out infinite;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
             clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
 }
