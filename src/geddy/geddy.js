@@ -35,6 +35,36 @@ font-size: 1.5rem;
 };
 `;
 
+const StyledHeaderSpan1 = styled.span`
+ display: block;
+  font-family: 'WHOA Top Minimum';
+  font-variation-settings: 'hrzn' 0, 'vert' 0, 'rota' 0, 'zoom' 0;
+  font-weight: normal;
+  font-size: clamp(10rem, 106.7vw - 36.7rem, 20rem);
+  position: relative;
+  line-height: 0.5;
+  margin: 0 0 0 1rem;
+  &::before {
+    content: 'Outsiders';
+  font-family: 'WHOA Spine Minimum';
+  font-variation-settings: 'hrzn' 0, 'vert' 0, 'rota' 0, 'zoom' 0;
+  font-size: 1em;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  left: 0;
+  }
+  &:hover{
+    font-variation-settings: 'hrzn' 820, 'vert' -1000, 'rota' 59, 'zoom' 820;
+    transition: all 1000ms cubic-bezier(0.42, 0, 0.11, 1.43);
+    -webkit-text-stroke: 1px white;
+  }
+  &:hover::before {
+    font-variation-settings: 'hrzn' 820, 'vert' -1000, 'rota' 59, 'zoom' 820;
+    transition: all 1000ms cubic-bezier(0.42, 0, 0.11, 1.43);
+  }
+`;
+
 const StyledSubtitle = styled.h2`
 font-size: 2rem;
 font-style: italic;
