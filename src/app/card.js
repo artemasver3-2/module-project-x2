@@ -80,8 +80,7 @@ constructor(props) {
         <>
         <p>
         <StyledCardInfo>{this.props.info}</StyledCardInfo>
-        </p>
-        </>
+        </p></>
     </StyledCard>
     );
   }
