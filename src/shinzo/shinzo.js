@@ -146,7 +146,7 @@ export default class Shinzo extends React.Component {
     return (
         <div className='shinzo-page-div'>
       <StyledHeader>
-        <StyledTitle aria-label="The Outsiders">The Outsiders</StyledTitle>
+        <StyledTitle aria-label="The Outsiders"></StyledTitle>
         <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle>
         <Nav />
       </StyledHeader>
