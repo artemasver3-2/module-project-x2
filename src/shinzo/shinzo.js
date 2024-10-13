@@ -29,6 +29,7 @@ text-transform: uppercase;
 perspective: 500px;
 &:before,
 :after {
+    content: attr(aria-label);
     position: absolute;
     top: 0;
     left: 0;
@@ -145,7 +146,7 @@ export default class Shinzo extends React.Component {
     return (
         <div className='shinzo-page-div'>
       <StyledHeader>
-        <StyledTitle>The Outsiders</StyledTitle>
+        <StyledTitle aria-label="The Outsiders">The Outsiders</StyledTitle>
         <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle>
         <Nav />
       </StyledHeader>
