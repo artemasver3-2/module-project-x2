@@ -35,7 +35,9 @@ const StyledTitle = styled.h1`
     top: 0;
     left: 0;
     transform: translate(-50%, -50%);
-    text-shadow: 0.01em 0.01em 0.01em rgba(0, 0, 0, 0.3);
+}
+&::before {
+  animation: floatAbove 3.5s ease-in-out infinite;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
             clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
 }
