@@ -40,6 +40,7 @@ const StyledTitle = styled.h1`
             clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
 }
 &&:after {
+  content: attr(aria-label);
     opacity: 0.95;
     transform: translate(-50%, -50%), rotateX(21deg);
     -webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
