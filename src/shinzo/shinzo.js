@@ -21,10 +21,9 @@ border-bottom: 2px solid #011120;
 
 const StyledTitle = styled.h1`
 font-family: Bebas Neue;
-font-size: 4.5rem;
+font-size: 3.5rem;
 color: #011120;
 margin-top: 1rem;
-position: relative;
 text-transform: uppercase;
 perspective: 500px;
 &:before,
@@ -146,7 +145,7 @@ export default class Shinzo extends React.Component {
     return (
         <div className='shinzo-page-div'>
       <StyledHeader>
-        <StyledTitle aria-label="The Outsiders"></StyledTitle>
+        <StyledTitle aria-label="TheOutsiders"></StyledTitle>
         <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle>
         <Nav />
       </StyledHeader>
