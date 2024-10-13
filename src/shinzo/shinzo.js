@@ -11,7 +11,8 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 2px solid #011120;
-background: url('https://static9.depositphotos.com/1007017/1099/v/600/depositphotos_10993792-stock-illustration-waves-background.jpg');
+background: #000000 url(https://static9.depositphotos.com/1007017/1099/v/600/depositphotos_10993792-stock-illustration-waves-background.jpg) no-repeat center;
+background-size: cover;
 
 @media only screen and (max-width : 460px)  {
   min-height: 15vh;
@@ -28,6 +29,8 @@ const StyledTitle = styled.h1`
     letter-spacing: 0.02em;
     text-transform: uppercase;
     perspective: 500px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
 &:before,
 &:after
  {
