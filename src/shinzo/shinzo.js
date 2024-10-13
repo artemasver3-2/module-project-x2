@@ -23,12 +23,12 @@ const StyledTitle = styled.h1`
 font-family: Bebas Neue;
 font-size: 4.5rem;
 color: #011120;
-margin-top: 1rem;
-margin-bottom: 3rem;
+margin-top: 3rem;
+margin-bottom: 7rem;
 text-transform: uppercase;
 perspective: 500px;
-&:before,
-:after {
+&::before,
+::after {
     content: attr(aria-label);
     position: absolute;
     top: 0;
@@ -36,13 +36,13 @@ perspective: 500px;
     transform: translate(-50%, -50%);
     text-shadow: 0.01em 0.01em 0.01em rgba(0, 0, 0, 0.3);
 }
-&:before {
+&::before {
     animation: floatAbove 3.5s ease-in-out infinite;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
             clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
 }
 &
-:after {
+::after {
     opacity: 0.65;
     filter: blur(0.02em);
     transform: translate(-50%, -50%) rotateX(21deg);
