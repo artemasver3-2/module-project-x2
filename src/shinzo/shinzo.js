@@ -21,9 +21,10 @@ border-bottom: 2px solid #011120;
 
 const StyledTitle = styled.h1`
 font-family: Bebas Neue;
-font-size: 3.5rem;
+font-size: 4.5rem;
 color: #011120;
 margin-top: 1rem;
+margin-bottom: 3rem;
 text-transform: uppercase;
 perspective: 500px;
 &:before,
