@@ -47,7 +47,6 @@ const StyledTitle = styled.h1`
             clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
 }
 &::after {
-  content: attr(aria-label);
   opacity: 0.65;
     filter: blur(0.02em);
     transform: translate(-50%, -50%) rotateX(21deg);
