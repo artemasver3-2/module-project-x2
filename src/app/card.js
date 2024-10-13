@@ -59,8 +59,6 @@ font-size: 1rem;
 padding: 1rem;
 font-family: Lexend, sans-serif;
 letter-spacing: 2px; 
-margin-bottom: -100rem;
-margin-left: -5rem;
 
 @media only screen and (max-width : 460px)  {
   font-size: .75rem;
@@ -79,10 +77,7 @@ constructor(props) {
     <StyledCard> 
         <StyledTitleCard>{this.props.title}</StyledTitleCard>
         <StyledSubtitleCard>{this.props.subtitle}</StyledSubtitleCard>
-        <>
-        <p>
         <StyledCardInfo>{this.props.info}</StyledCardInfo>
-        </p></>
     </StyledCard>
     );
   }
