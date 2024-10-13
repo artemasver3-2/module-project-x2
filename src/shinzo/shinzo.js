@@ -12,7 +12,6 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 2px solid #011120;
-background: #3f81b3 url(https://st4.depositphotos.com/21087722/31286/v/600/depositphotos_312867906-stock-illustration-vector-rose-floral-botanical-flowers.jpg) no-repeat center;
 
 @media only screen and (max-width : 460px)  {
   min-height: 15vh;
