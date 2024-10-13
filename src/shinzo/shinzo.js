@@ -44,8 +44,7 @@ const StyledTitle = styled.h1`
 }
 &::after {
     opacity: 0.95;
-    filter: blur(0.90em);
-    transform: translate(-50%, -50%) rotateX(21deg);
+    transform: translate(-50%, -50%), rotateX(21deg);
     animation: floatBelow 3.5s ease-in-out infinite;
     -webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
             clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
