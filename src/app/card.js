@@ -78,11 +78,10 @@ constructor(props) {
         <StyledTitleCard>{this.props.title}</StyledTitleCard>
         <StyledSubtitleCard>{this.props.subtitle}</StyledSubtitleCard>
         <>
-        <blockquote>
         <p>
         <StyledCardInfo>{this.props.info}</StyledCardInfo>
         </p>
-        </blockquote></>
+        </>
     </StyledCard>
     );
   }

@@ -37,15 +37,6 @@ p:first-child:first-letter {
     color: crimson;
 }
 
-blockquote {
-    width: 100%;
-    max-width: 420px; 
-    margin: 100px 0;    
-    font: 22px/1.8 Kristi;
-    hyphens: auto;
-    text-align: justify;
-    flex-shrink: 0;
-}
 
 
 @media only screen and (max-width : 460px)  {
