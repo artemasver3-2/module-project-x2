@@ -11,7 +11,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 2px solid #011120;
-background: #000000 url(https://img.freepik.com/premium-photo/blue-gray-abstract-pattern-seaweed_910054-22949.jpg);
+background: #9EC0E9;
 background-size: 60%;
 
 @media only screen and (max-width : 460px)  {
@@ -19,6 +19,7 @@ background-size: 60%;
   margin-bottom: .5rem;
 };
 `;
+
 
 const StyledTitle = styled.h1`
    position: relative;
