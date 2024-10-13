@@ -28,8 +28,8 @@ const StyledTitle = styled.h1`
     letter-spacing: 0.02em;
     text-transform: uppercase;
     perspective: 500px;
-&::before,
-::after {
+&::before
+ {
   content: attr(aria-label);
     position: absolute;
     top: 0;
@@ -37,10 +37,10 @@ const StyledTitle = styled.h1`
     transform: translate(-50%, -50%);
     text-shadow: 0.01em 0.01em 0.01em rgba(0, 0, 0, 0.3);
 }
-/* &::before {
+&::before {
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
             clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
-} */
+}
 &::after {
     opacity: 0.95;
     transform: translate(-50%, -50%), rotateX(21deg);
