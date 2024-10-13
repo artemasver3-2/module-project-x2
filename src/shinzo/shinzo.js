@@ -22,6 +22,7 @@ border-bottom: 2px solid #011120;
 const StyledTitle = styled.h1`
 font-family: Bebas Neue;
 font-size: 4.5rem;
+font-weight: 700;
 color: #011120;
 margin-top: 3rem;
 margin-bottom: 7rem;
@@ -36,7 +37,7 @@ perspective: 500px;
     transform: translate(-50%, -50%);
     text-shadow: 0.01em 0.01em 0.01em rgba(0, 0, 0, 0.3);
 }
-&:before {
+&::before {
     animation: floatAbove 3.5s ease-in-out infinite;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
             clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
