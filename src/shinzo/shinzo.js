@@ -11,8 +11,8 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 2px solid #011120;
-background: #000000 url(https://static9.depositphotos.com/1007017/1099/v/600/depositphotos_10993792-stock-illustration-waves-background.jpg) no-repeat center;
-background-size: cover;
+background: #000000 url(https://st.depositphotos.com/1410993/1865/v/600/depositphotos_18652641-stock-illustration-ocean-pattern.jpg);
+background-size: 30%;
 
 @media only screen and (max-width : 460px)  {
   min-height: 15vh;
