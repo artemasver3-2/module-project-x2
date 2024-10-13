@@ -104,7 +104,7 @@ export default class Geddy extends React.Component {
     return (
         <div className='geddy-page-div'>
       <StyledHeader>
-        <StyledTitle>The Outsiders</StyledTitle>
+        <StyledTitle>The <span>Outsiders</span></StyledTitle>
         <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle>
         <Nav />
       </StyledHeader>
