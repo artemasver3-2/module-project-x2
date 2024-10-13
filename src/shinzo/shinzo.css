@@ -19,23 +19,6 @@ margin-bottom: 2rem;
 }
 
 
-@keyframes floatAbove {
-    50% {
-        transform: translate(-50%, -60%);
-        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 60%);
-                clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 60%);
-    }
-}
-
-@keyframes floatBelow {
-    50% {
-        transform: translate(-50%, -60%) rotateX(10deg);
-        -webkit-clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
-                clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
-    }
-}
-
-
 @media only screen and (min-width : 60px)  {
     .shinzo-page-div {
         background-size: 25%;

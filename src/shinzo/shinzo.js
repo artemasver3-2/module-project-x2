@@ -44,7 +44,7 @@ transform: 3.5s ease-in-out infinite;
 }
 &
 ::after {
-    opacity: 0.65;
+    opacity: 1;
     filter: blur(2rem);
     transform: translate(-50%, -50%) rotateX(21deg);
     animation: floatBelow;
@@ -52,6 +52,21 @@ transform: 3.5s ease-in-out infinite;
             clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
 }
 
+@keyframes floatAbove {
+    50% {
+        transform: translate(-50%, -60%);
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 60%);
+                clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 60%);
+    }
+}
+
+@keyframes floatBelow {
+    50% {
+        transform: translate(-50%, -60%) rotateX(10deg);
+        -webkit-clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
+                clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
+    }
+}
 
 @media only screen and (max-width : 460px)  {
   font-size: 2.5rem;
