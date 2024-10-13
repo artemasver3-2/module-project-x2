@@ -41,8 +41,7 @@ perspective: 500px;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
             clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
 }
-&
-::after {
+&::after {
     opacity: 0.65;
     filter: blur(0.02em);
     transform: translate(-50%, -50%) rotateX(21deg);
@@ -146,7 +145,7 @@ export default class Shinzo extends React.Component {
     return (
         <div className='shinzo-page-div'>
       <StyledHeader>
-        <StyledTitle aria-label="TheOutsiders"></StyledTitle>
+        <StyledTitle aria-label="The Outsiders"></StyledTitle>
         <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle>
         <Nav />
       </StyledHeader>
