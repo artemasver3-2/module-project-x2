@@ -11,7 +11,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 2px solid #011120;
-background: #000000 url(https://st.depositphotos.com/1410993/1865/v/600/depositphotos_18652641-stock-illustration-ocean-pattern.jpg);
+background: #000000 url(https://img.freepik.com/premium-photo/blue-gray-abstract-pattern-seaweed_910054-22949.jpg);
 background-size: 30%;
 
 @media only screen and (max-width : 460px)  {
@@ -29,8 +29,8 @@ const StyledTitle = styled.h1`
     letter-spacing: 0.02em;
     text-transform: uppercase;
     perspective: 500px;
-    margin-bottom: 3rem;
-    margin-top: 1rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
 &:before,
 &:after
  {
