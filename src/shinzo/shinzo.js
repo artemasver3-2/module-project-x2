@@ -41,8 +41,9 @@ perspective: 500px;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
             clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
 }
-&:after {
-    
+&::after {
+    opacity: 0.65;
+    filter: blur(0.20em);
     transform: translate(-50%, -50%) rotateX(21deg);
     animation: floatBelow 3.5s ease-in-out infinite;
     -webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
@@ -63,8 +64,6 @@ perspective: 500px;
         transform: translate(-50%, -60%) rotateX(10deg);
         -webkit-clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
                 clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
-                opacity: 0.65;
-                filter: blur(0.20em);
     }
 }
 
