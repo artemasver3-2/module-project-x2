@@ -28,7 +28,7 @@ nav {
 }
 
 
-StyledCardInfo:first-letter {
+p:first-letter {
     font: 290px Bebas Neue;
     color: crimson;
 }

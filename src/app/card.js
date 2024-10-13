@@ -77,7 +77,7 @@ constructor(props) {
     <StyledCard> 
         <StyledTitleCard>{this.props.title}</StyledTitleCard>
         <StyledSubtitleCard>{this.props.subtitle}</StyledSubtitleCard>
-        <StyledCardInfo>{this.props.info}</StyledCardInfo>
+        <StyledCardInfo><p>{this.props.info}</p></StyledCardInfo>
     </StyledCard>
     );
   }
