@@ -12,7 +12,7 @@ align-items: center;
 justify-content: center;
 border-bottom: 2px solid #011120;
 background: #000000 url(https://img.freepik.com/premium-photo/blue-gray-abstract-pattern-seaweed_910054-22949.jpg);
-background-size: 30%;
+background-size: 100%;
 
 @media only screen and (max-width : 460px)  {
   min-height: 15vh;
@@ -31,8 +31,8 @@ const StyledTitle = styled.h1`
     perspective: 500px;
     margin-bottom: 5rem;
     margin-top: 3rem;
-&:before,
-&:after
+&::before,
+&::after
  {
   content: attr(aria-label);
     position: absolute;
