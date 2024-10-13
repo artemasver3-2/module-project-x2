@@ -12,7 +12,7 @@ align-items: center;
 justify-content: center;
 border-bottom: 2px solid #011120;
 background: #000000 url(https://img.freepik.com/premium-photo/blue-gray-abstract-pattern-seaweed_910054-22949.jpg);
-background-size: 100%;
+background-size: 60%;
 
 @media only screen and (max-width : 460px)  {
   min-height: 15vh;
@@ -49,7 +49,7 @@ const StyledTitle = styled.h1`
 &::after {
   opacity: 0.65;
     filter: blur(0.02em);
-    transform: translate(-50%, -50%) rotateX(21deg);
+    transform: translate(-50%, -50%), rotateX(21deg);
     animation: floatBelow 3.5s ease-in-out infinite;
     -webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
             clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
