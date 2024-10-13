@@ -26,14 +26,14 @@ color: #011120;
 margin-top: 3rem;
 margin-bottom: 7rem;
 text-transform: uppercase;
-perspective: 500px; 
-transform: translate(-50%, -50%);
+perspective: 500px;
 &::before,
 ::after {
     content: attr(aria-label);
     position: absolute;
     top: 0;
     left: 0;
+    transform: translate(-50%, -50%);
     text-shadow: 0.01em 0.01em 0.01em rgba(0, 0, 0, 0.3);
 }
 &::before {
