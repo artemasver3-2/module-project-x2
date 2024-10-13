@@ -28,6 +28,7 @@ margin-top: 3rem;
 margin-bottom: 7rem;
 text-transform: uppercase;
 perspective: 500px;
+transform: 3.5s ease-in-out infinite;
 &::before,
 ::after {
     content: attr(aria-label);
@@ -38,7 +39,7 @@ perspective: 500px;
     text-shadow: 0.01em 0.01em 0.01em rgba(0, 0, 0, 0.3);
 }
 &::before {
-    animation: floatAbove 3.5s ease-in-out infinite;
+    animation: floatAbove;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
             clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
 }
@@ -47,7 +48,7 @@ perspective: 500px;
     opacity: 0.65;
     filter: blur(0.20em);
     transform: translate(-50%, -50%) rotateX(21deg);
-    animation: floatBelow 3.5s ease-in-out infinite;
+    animation: floatBelow;
     -webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
             clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
 }
