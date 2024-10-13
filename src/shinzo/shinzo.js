@@ -10,9 +10,10 @@ const StyledHeader = styled.header`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-bottom: 2px solid #011120;
+  border-bottom: 4px solid #011120;
   background: url(https://i.ibb.co/QYgVZF1/New-Project-25.png);
   background-size: 30%;
+  opacity: 0.65%;
 
   @media only screen and (max-width: 460px) {
     min-height: 15vh;
@@ -41,7 +42,7 @@ const StyledTitle = styled.h1`
   }
 
   &::before {
-    animation: floatAbove 3.5s ease-in-out infinite;
+    animation: floatAbove 5.5s ease-in-out infinite;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
   }
@@ -49,8 +50,8 @@ const StyledTitle = styled.h1`
   &::after {
     opacity: 0.75;
     filter: blur(0.01em);
-    transform: translate(-50%, -50%) rotateX(21deg);
-    animation: floatBelow 3.5s ease-in-out infinite;
+    transform: translate(-50%, -50%) rotateX(31deg);
+    animation: floatBelow 5.5s ease-in-out infinite;
     -webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
   }
