@@ -22,8 +22,6 @@ border-bottom: 2px solid #011120;
 const StyledTitle = styled.h1`
 font-family: Bebas Neue;
 color: #011120;
-text-decoration: none;
-letter-spacing: rem;
 margin-top: 1rem;
 position: relative;
 font-size: calc(10px + 10vw);
