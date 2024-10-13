@@ -25,18 +25,8 @@ margin-bottom: 2rem;
 nav {
     margin-top: -1.5rem;
     margin-bottom: .5rem;
+    
 }
-
-
-p:first-letter {
-    font: 290px Bebas Neue;
-    color: crimson;
-    line-height: 1; /* 1 */
-    margin-left: -85px; /* 3 */
-    margin-top: -20rem; /* 3 */
-}
-
-
 
 @media only screen and (max-width : 460px)  {
   .App {
