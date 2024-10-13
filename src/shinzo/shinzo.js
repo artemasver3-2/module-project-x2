@@ -11,7 +11,7 @@ const StyledHeader = styled.header`
   align-items: center;
   justify-content: center;
   border-bottom: 2px solid #011120;
-  background: #9ec0e9;
+  background: url(https://i.ibb.co/QYgVZF1/New-Project-25.png);
   background-size: 60%;
 
   @media only screen and (max-width: 460px) {
@@ -29,8 +29,6 @@ const StyledTitle = styled.h1`
   letter-spacing: 0.02em;
   text-transform: uppercase;
   perspective: 500px;
-  margin-bottom: 5rem;
-  margin-top: 3rem;
 
   &::before,
   &::after {
@@ -85,7 +83,7 @@ const StyledSubtitle = styled.h2`
   font-style: italic;
   font-family: Kristi;
   color: #011120;
-  margin-top: -4.5rem;
+  margin-top: -2.5rem;
   margin-left: 20rem;
   letter-spacing: 2px;
 
