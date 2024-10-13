@@ -5,13 +5,13 @@ import './shinzo.css';
 import Nav from '../app/nav';
 
 const StyledHeader = styled.header`
-background-color: #9EC0E9;
 min-height: 15vh;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 2px solid #011120;
+background: url(https://static9.depositphotos.com/1007017/1099/v/600/depositphotos_10993792-stock-illustration-waves-background.jpg);
 
 @media only screen and (max-width : 460px)  {
   min-height: 15vh;
@@ -31,7 +31,11 @@ const StyledTitle = styled.h1`
 &:before
  {
   content: attr(aria-label);
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+  text-shadow: 0.01em 0.01em 0.01em rgba(0, 0, 0, 0.3);
 }
 &::before {
   animation: floatAbove 3.5s ease-in-out infinite;
