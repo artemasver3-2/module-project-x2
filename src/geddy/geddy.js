@@ -25,18 +25,8 @@ font-family: Bebas Neue;
 color: #8a5c24;
 text-decoration: none;
 letter-spacing: rem;
-margin-top: 1rem;
-transition: 1s ease-in-out;
-&:hover,
-&:focus {
-    transform: scale(-1, 1);
-    color: #8a5c24;
-    -moz-transform: scale(-1, 1);
-    -webkit-transform: scale(-1, 1);
-    -o-transform: scale(-1, 1);
-    -ms-transform: scale(-1, 1);
-    transform: scale(-1, 1);
-}
+text-transform: uppercase;
+font-size: 1.5rem;
 
 @media only screen and (max-width : 460px)  {
   font-size: 2.5rem;
