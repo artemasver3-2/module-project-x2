@@ -31,10 +31,7 @@ const StyledTitle = styled.h1`
 &:before
  {
   content: attr(aria-label);
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 &::before {
   animation: floatAbove 3.5s ease-in-out infinite;
