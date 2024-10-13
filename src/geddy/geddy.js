@@ -25,44 +25,24 @@ font-family: Bebas Neue;
 color: #8a5c24;
 text-decoration: none;
 letter-spacing: rem;
-text-transform: uppercase;
-font-size: 1.5rem;
+margin-top: 1rem;
+transition: 1s ease-in-out;
+&:hover,
+&:focus {
+    transform: scale(-1, 1);
+    color: #8a5c24;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
 
 @media only screen and (max-width : 460px)  {
   font-size: 2.5rem;
   margin-bottom: 3.75rem;
   margin-top: 2px;
 };
-`;
-
-const StyledHeaderSpan1 = styled.span`
- display: block;
-  font-family: 'WHOA Top Minimum';
-  font-variation-settings: 'hrzn' 0, 'vert' 0, 'rota' 0, 'zoom' 0;
-  font-weight: normal;
-  font-size: clamp(10rem, 106.7vw - 36.7rem, 20rem);
-  position: relative;
-  line-height: 0.5;
-  margin: 0 0 0 1rem;
-  &::before {
-    content: 'Outsiders';
-  font-family: 'WHOA Spine Minimum';
-  font-variation-settings: 'hrzn' 0, 'vert' 0, 'rota' 0, 'zoom' 0;
-  font-size: 1em;
-  position: absolute;
-  top: 0;
-  z-index: -1;
-  left: 0;
-  }
-  &:hover{
-    font-variation-settings: 'hrzn' 820, 'vert' -1000, 'rota' 59, 'zoom' 820;
-    transition: all 1000ms cubic-bezier(0.42, 0, 0.11, 1.43);
-    -webkit-text-stroke: 1px white;
-  }
-  &:hover::before {
-    font-variation-settings: 'hrzn' 820, 'vert' -1000, 'rota' 59, 'zoom' 820;
-    transition: all 1000ms cubic-bezier(0.42, 0, 0.11, 1.43);
-  }
 `;
 
 const StyledSubtitle = styled.h2`
@@ -134,7 +114,7 @@ export default class Geddy extends React.Component {
     return (
         <div className='geddy-page-div'>
       <StyledHeader>
-        <StyledTitle>The <span>Outsiders</span></StyledTitle>
+        <StyledTitle>The Outsiders</StyledTitle>
         <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle>
         <Nav />
       </StyledHeader>
