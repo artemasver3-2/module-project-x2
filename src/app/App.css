@@ -31,7 +31,10 @@ nav {
 p:first-letter {
     font: 290px Bebas Neue;
     color: crimson;
-    margin-bottom: -5rem;
+    line-height: 1; /* 1 */
+    margin-right: -1000px; /* 2 */
+    margin-left: -85px; /* 3 */
+    margin-top: -110px; /* 3 */
 }
 
 
