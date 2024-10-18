@@ -25,8 +25,10 @@ const StyledTitle = styled.h1`
   font-size: 4.5rem;
   font-weight: 700;
   color: #011120;
-  letter-spacing: 0.02em;
+  letter-spacing: 1rem;
   text-transform: uppercase;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
   perspective: 500px;
 
   &::before,
@@ -40,16 +42,16 @@ const StyledTitle = styled.h1`
   }
 
   &::before {
-    animation: floatAbove 5.5s ease-in-out infinite;
+    animation: floatAbove 3.5s ease-in-out infinite;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
   }
 
   &::after {
-    opacity: 0.75;
-    filter: blur(0.01em);
+    opacity: 0.85;
+    filter: blur(0.02em);
     transform: translate(-50%, -50%) rotateX(31deg);
-    animation: floatBelow 5.5s ease-in-out infinite;
+    animation: floatBelow 3.5s ease-in-out infinite;
     -webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
   }
@@ -64,7 +66,7 @@ const StyledTitle = styled.h1`
 
   @keyframes floatBelow {
     50% {
-      transform: translate(-50%, -60%) rotateX(10deg);
+      transform: translate(-50%, -60%) rotateX(5deg);
       -webkit-clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
       clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
     }
