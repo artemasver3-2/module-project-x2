@@ -20,16 +20,29 @@ border-bottom: 2px solid #197278;
 `;
 
 const StyledTitle = styled.h1`
-font-size: 4.5rem;
-font-family: Bebas Neue;
+
 color: #197278;
 text-decoration: none;
 letter-spacing: rem;
 margin-top: 1rem;
+margin-bottom: 3.5rem;
 transition: 1s ease-in-out;
+  -webkit-text-stroke: 2px #d6f4f4;
+  font-variation-settings: "wght" 800, "ital" 1;
+  font-size: 4.5rem;
+  text-align: center;
+  color: transparent;
+  font-family: "Bebas Neue", sans-serif;
+  text-shadow: 2.5px 2.5px 0px #197278,
+    5px 5px 0px #197278;
+  cursor: pointer;
+
 &:hover,
 &:focus {
-    transform: rotate(3deg);
+    transform: rotate(4deg);
+    font-variation-settings: "wght" 100, "ital" 0;
+    text-shadow: 2px 2px 0px #197278,
+    5px 5px 0px #197278;
 }
 
 @media only screen and (max-width : 460px)  {
