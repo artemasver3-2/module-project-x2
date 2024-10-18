@@ -10,7 +10,7 @@ const StyledHeader = styled.header`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-bottom: 4px solid #011120;
+  border-bottom: 2px solid #011120;
   background-color: #9ec0e9;
 
   @media only screen and (max-width: 460px) {
@@ -28,7 +28,7 @@ const StyledTitle = styled.h1`
   letter-spacing: 1rem;
   text-transform: uppercase;
   margin-bottom: 4rem;
-  margin-top: 4rem;
+  margin-top: 3.75rem;
   perspective: 500px;
 
   &::before,
@@ -48,7 +48,7 @@ const StyledTitle = styled.h1`
   }
 
   &::after {
-    opacity: 0.85;
+    opacity: 0.65;
     filter: blur(0.02em);
     transform: translate(-50%, -50%) rotateX(31deg);
     animation: floatBelow 3.5s ease-in-out infinite;
@@ -59,15 +59,15 @@ const StyledTitle = styled.h1`
   @keyframes floatAbove {
     50% {
       transform: translate(-50%, -60%);
-      -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 60%);
+      -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 75%);
       clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 60%);
     }
   }
 
   @keyframes floatBelow {
     50% {
-      transform: translate(-50%, -60%) rotateX(5deg);
-      -webkit-clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
+      transform: translate(-50%, -60%) rotateX(10deg);
+      -webkit-clip-path: polygon(0% 75%, 100% 75%, 100% 100%, 0% 100%);
       clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
     }
   }
