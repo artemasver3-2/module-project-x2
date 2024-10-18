@@ -11,8 +11,7 @@ const StyledHeader = styled.header`
   align-items: center;
   justify-content: center;
   border-bottom: 4px solid #011120;
-  background: url(https://i.ibb.co/QYgVZF1/New-Project-25.png);
-  background-size: 30%;
+  background-color: #9ec0e9;
 
   @media only screen and (max-width: 460px) {
     min-height: 15vh;
