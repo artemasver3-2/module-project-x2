@@ -1,14 +1,5 @@
 import React from 'react';
 import Card from './card'
-import styled from 'styled-components';
-
-const StyledDiv = styled.div`
-  max-width: 150vw;
-  max-height: 140vh;
-  margin-left: 92.75rem;
-  margin-top: -1.80rem;
-  margin-bottom: -10rem;
-`;
 
 export default class Headliner extends React.Component {
   constructor(props) {
@@ -20,12 +11,6 @@ export default class Headliner extends React.Component {
   render() {
     return (
         <div className='main-div'>
-            <StyledDiv>
-          <img
-            src="https://i.ibb.co/ZznYqHX/New-Pgfdgroject.png"
-            alt="white line art of a dragon shaped like a circle"
-          ></img>
-        </StyledDiv>
             <Card 
             title="Inside The Outsiders" 
             subtitle="who, what, and why... and when?" 
