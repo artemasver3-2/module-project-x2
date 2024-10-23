@@ -2,7 +2,7 @@
 
 
 .isa-page-div {
-background-image: url("https://i.postimg.cc/BngVkqMx/400337798-1030390304896888-2918608143978703467-n.png");
+background-image: url("https://i.ibb.co/1qwGDXw/400337798-1030390304896888-2918608143978703467-n.png");
 }
 
 .isa-body {
@@ -21,6 +21,6 @@ margin-bottom: 2rem;
 @media only screen and (min-width : 60px)  {
     .isa-page-div {
         background-size: 25%;
-        background-image: url("https://i.postimg.cc/BngVkqMx/400337798-1030390304896888-2918608143978703467-n.png");
+        background-image: url("https://i.ibb.co/1qwGDXw/400337798-1030390304896888-2918608143978703467-n.png");
     }
   };
