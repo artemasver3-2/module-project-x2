@@ -10,7 +10,10 @@ import Holly from '../holly/holly';
 import Isa from '../isa/isa';
 import Bael from '../bael/bael';
 import ScrollToTop from './scroll';
+
 ///// listen bitch import styled components out of files at some point ok thx
+//its done, yw
+
 class App extends React.Component {
   constructor() {
     super();
@@ -37,5 +40,6 @@ class App extends React.Component {
 
 export default App;
 
-
 // https://codepen.io/TajShireen/pen/ExLWgGb - credit for css on alex's page title
+// https://codepen.io/Jintos/pen/OJKodm - webkit clip text credit fainne's title
+// get the thing for the refraction
