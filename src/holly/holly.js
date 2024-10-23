@@ -1,100 +1,8 @@
 import React from 'react';
-import styled from 'styled-components'
 import HollyCard from './hollycard';
 import './holly.css';
 import Nav from '../app/nav';
-
-const StyledHeader = styled.header`
-background-color: #000000;
-min-height: 15vh;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-border-bottom: 2px solid #781919;
-
-@media only screen and (max-width : 460px)  {
-  min-height: 15vh;
-  margin-bottom: .5rem;
-};
-`;
-
-const StyledTitle = styled.h1`
-font-size: 4.5rem;
-font-family: Bebas Neue;
-color: #781919;
-text-decoration: none;
-letter-spacing: rem;
-margin-top: 1rem;
-transition: 1s ease-in-out;
-&:hover,
-&:focus {
-    color: #000000;
-}
-
-@media only screen and (max-width : 460px)  {
-  font-size: 2.5rem;
-  margin-bottom: 3.75rem;
-  margin-top: 2px;
-};
-`;
-
-const StyledSubtitle = styled.h2`
-font-size: 2rem;
-font-style: italic;
-font-family: Kristi;
-color: white;
-margin-top: -4.5rem;
-margin-left: 20rem;
-letter-spacing: 2px;
-
-@media only screen and (max-width : 460px)  {
-  font-size: 1.25rem;
-  margin-left: 4rem;
-};
-`;
-
-const StyledFooter = styled.footer`
-background-color: #000000;
-min-height: 15vh;
-border-top: 2px solid #781919;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-
-@media only screen and (max-width : 460px)  {
-  text-align: center;
-  min-height: 10vh;
- };
-`;
-
-const StyledFooterSpan1 = styled.span`
-font-size: 1.75rem;
-font-family: Bebas Neue;
-color: white;
-letter-spacing: 2px;
-
-@media only screen and (max-width : 460px)  {
-  font-size: 1rem;
-  margin-bottom: .5rem;
-  margin-top: -1rem;
-};
-`;
-
-const StyledFooterSpan2 = styled.span`
-font-size: 2rem;
-font-family: Pacifico;
-color: #781919;
-letter-spacing: 2px;
-margin-top: -12px;
-margin-bottom:-1rem;
-
-@media only screen and (max-width : 460px)  {
-  font-size: 1rem;
- };
-`;
-
+import { HollyHeader, HollyTitle, HollySubtitle, HollyFooter, HollyFooterSpan1, HollyFooterSpan2 } from './styles-holly';
 
 export default class Holly extends React.Component {
   constructor(props) {
@@ -106,11 +14,11 @@ export default class Holly extends React.Component {
   render() {
     return (
         <div className='holly-page-div'>
-      <StyledHeader>
-        <StyledTitle>The Outsiders</StyledTitle>
-        <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle>
+      <HollyHeader>
+        <HollyTitle>The Outsiders</HollyTitle>
+        <HollySubtitle>Ebixia's most wanted heros</HollySubtitle>
         <Nav />
-      </StyledHeader>
+      </HollyHeader>
 
        <div className='holly-body'>
         <HollyCard 
@@ -134,9 +42,9 @@ export default class Holly extends React.Component {
         />
        </div>
 
-       <StyledFooter>
-            <StyledFooterSpan1>Outsider NewsLetter Property of:</StyledFooterSpan1><StyledFooterSpan2>Eleanor Dragon</StyledFooterSpan2>
-       </StyledFooter>
+       <HollyFooter>
+            <HollyFooterSpan1>Outsider NewsLetter Property of:</HollyFooterSpan1><HollyFooterSpan2>Eleanor Dragon</HollyFooterSpan2>
+       </HollyFooter>
        </div>
     );
   }
