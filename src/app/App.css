@@ -7,6 +7,10 @@ background-image: url("https://www.creativefabrica.com/wp-content/uploads/2023/0
 background-size: 30%;
 }
 
+img {
+  width: 160px;
+  height: 150px;
+}
 
 .main-div {
 width: 85vw;
