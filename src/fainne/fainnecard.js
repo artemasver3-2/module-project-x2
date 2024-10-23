@@ -1,5 +1,5 @@
 import React from 'react';
-import { FainneStyledCard, FainneSubtitleCard, FainneCardInfo } from './styles-fainne';
+import { FainneStyledCard, FainneTitleCard, FainneSubtitleCard, FainneCardInfo } from './styles-fainne';
 
 export default class FainneCard extends React.Component {
 constructor(props) {
@@ -12,7 +12,7 @@ constructor(props) {
     return (
     <div className='fainne-uron'>
         <FainneStyledCard> 
-            <FainneStyledCard>{this.props.title}</FainneStyledCard>
+            <FainneTitleCard>{this.props.title}</FainneTitleCard>
             <FainneSubtitleCard>{this.props.subtitle}</FainneSubtitleCard>
             <FainneCardInfo>{this.props.info}</FainneCardInfo>
         </FainneStyledCard>
