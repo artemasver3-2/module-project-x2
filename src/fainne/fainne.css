@@ -18,6 +18,78 @@ border-radius: 5px;
 margin-bottom: 2rem;
 }
 
+
+:before,
+:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.clip-text_one {
+    background-image: url(https://st5.depositphotos.com/3724343/64829/i/600/depositphotos_648294206-stock-photo-illustration-silhouette-background-panorama-coniferous.jpg);
+}
+
+/* Clip text element */
+.clip-text {
+    font-size: 1.5em;
+    font-family: Bebas Neue;
+    margin-bottom: 2.5rem;
+    margin-top: -1rem;
+    text-align: center;
+    /* Color fallback */
+    color: #a71515;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.clip-text:before,
+.clip-text:after {
+    position: absolute;
+    content: '';
+}
+
+/* Background */
+.clip-text:before {
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+}
+
+/* Text Background (black zone) */
+.clip-text:after {
+    position: absolute;
+    z-index: -1;
+    top: .125em;
+    right: .125em;
+    bottom: .125em;
+    left: .125em;
+    background-color: #000;
+}
+
+/* Change the background position to display letter when the black zone isn't here */
+.clip-text--no-textzone:before {
+    background-position: -.75em 0;
+}
+
+.clip-text--no-textzone:after {
+    content: none;
+}
+
+/* Use Background-size cover for photo background and no-repeat background */
+.clip-text--cover,
+.clip-text--cover:before {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+
 @media only screen and (min-width : 60px)  {
     .fainne-page-div {
         background-size: 35%;

@@ -151,7 +151,7 @@ color: #011120;
 font-size: 3rem;
 padding: 1%;
 font-family: Bebas Neue, sans-serif;
-letter-spacing: 5px;
+letter-spacing: 10px;
 margin-bottom: 1.75rem;
 text-align: center;
 

@@ -2,7 +2,7 @@ import React from 'react';
 import FainneCard from './fainnecard';
 import './fainne.css';
 import Nav from '../app/nav';
-import { StyledFainneHeader, FainneTitle, FainneSubtitle, FainneFooter, FainneFooterSpan1, FainneFooterSpan2 } from './styles-fainne';
+import { StyledFainneHeader, FainneSubtitle, FainneFooter, FainneFooterSpan1, FainneFooterSpan2 } from './styles-fainne';
 
 export default class FainneUron extends React.Component {
   constructor(props) {
@@ -13,7 +13,9 @@ export default class FainneUron extends React.Component {
     return (
       <div className="fainne-page-div">
         <StyledFainneHeader>
-          <FainneTitle>The Outsiders</FainneTitle>
+          <div class="wrapper">
+            <div class="clip-text clip-text_one">The Outsiders</div>
+          </div>
           <FainneSubtitle>Ebixia's most wanted heros</FainneSubtitle>
           <Nav />
         </StyledFainneHeader>

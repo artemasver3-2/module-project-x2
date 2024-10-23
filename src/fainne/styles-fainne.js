@@ -16,25 +16,6 @@ export const StyledFainneHeader = styled.header`
   }
 `;
 
-export const FainneTitle = styled.h1`
-  font-size: 4.5rem;
-  font-family: Bebas Neue;
-  color: #a71515;
-  text-decoration: none;
-  letter-spacing: rem;
-  margin-top: 1rem;
-  transition: 1s ease-in-out;
-  &:hover {
-    color: #062514;
-    opacity: 1;
-  }
-
-  @media only screen and (max-width: 460px) {
-    font-size: 2.5rem;
-    margin-bottom: 3.75rem;
-    margin-top: 2px;
-  }
-`;
 
 export const FainneSubtitle = styled.h2`
   font-size: 2rem;
