@@ -9,7 +9,6 @@ margin: 0 auto;
 padding-bottom: 2%;
 text-align: justify;
 margin-top: -4rem;
-margin-bottom: 2rem;
 
 @media only screen and (max-width : 460px)  {
   width: 80%;
@@ -24,6 +23,7 @@ padding: 1%;
 font-family: Bebas Neue, sans-serif;
 letter-spacing: 2px;
 margin-bottom: 1.75rem;
+margin-top: 1.5rem;
 text-align: center;
 
 @media only screen and (max-width : 460px)  {

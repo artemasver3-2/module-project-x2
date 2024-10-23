@@ -3,11 +3,11 @@ import Card from './card'
 import styled from 'styled-components';
 
 const StyledDiv = styled.div`
-  max-width: 300vw;
-  max-height: 300vh;
-  margin-left: 91.5rem;
-  margin-top: -1.795rem;
-  margin-bottom: -13rem;
+  max-width: 150vw;
+  max-height: 140vh;
+  margin-left: 92.75rem;
+  margin-top: -1.80rem;
+  margin-bottom: -10rem;
 `;
 
 export default class Headliner extends React.Component {
