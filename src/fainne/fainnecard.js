@@ -1,5 +1,5 @@
 import React from 'react';
-import { FainneStyledCard, FainneTitleCard, FainneSubtitleCard, FainneCardInfo } from './styles-fainne';
+import { FainneStyledCard, FainneSubtitleCard, FainneCardInfo } from './styles-fainne';
 
 export default class FainneCard extends React.Component {
 constructor(props) {
