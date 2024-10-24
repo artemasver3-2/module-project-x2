@@ -43,5 +43,5 @@ export default App;
 
 // https://codepen.io/TajShireen/pen/ExLWgGb - credit for css on alex's page title
 // https://codepen.io/Jintos/pen/OJKodm - webkit clip text credit fainne's title
-// https://codepen.io/GeorgePark/pen/wEQpmo - shinzo title css credit 
+// https://codepen.io/alvarotrigo/pen/PoKMyzO - shinzo title css credit 
 // https://codepen.io/onecastell/pen/VwZWBvr - holly's title based on 
