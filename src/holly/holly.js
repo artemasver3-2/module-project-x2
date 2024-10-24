@@ -2,7 +2,7 @@ import React from 'react';
 import HollyCard from './hollycard';
 import './holly.css';
 import Nav from '../app/nav';
-import { HollyHeader, HollyTitle, HollySubtitle, HollyFooter, HollyFooterSpan1, HollyFooterSpan2 } from './styles-holly';
+import { HollyHeader, HollyTitle, HollySubtitle, HollyFooter, HollyFooterDiv1, HollyFooterDiv2 } from './styles-holly';
 
 export default class Holly extends React.Component {
   constructor(props) {
@@ -43,7 +43,7 @@ export default class Holly extends React.Component {
        </div>
 
        <HollyFooter>
-            <HollyFooterSpan1>Outsider NewsLetter Property of:</HollyFooterSpan1><HollyFooterSpan2>Eleanor Dragon</HollyFooterSpan2>
+            <HollyFooterDiv1>Outsider NewsLetter Property of:</HollyFooterDiv1><HollyFooterDiv2>Eleanor Dragon</HollyFooterDiv2>
        </HollyFooter>
        </div>
     );

@@ -18,6 +18,13 @@ border-radius: 5px;
 margin-bottom: 2rem;
 }
 
+
+canvas {
+    display:block;
+    margin:auto;
+    background:#ecf0f1;
+}
+
 @media only screen and (min-width : 60px)  {
     .holly-page-div {
         background-size: 25%;
