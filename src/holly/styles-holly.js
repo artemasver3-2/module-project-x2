@@ -23,7 +23,7 @@ font-family: Bebas Neue;
 text-decoration: none;
 letter-spacing: rem;
 margin-top: 1rem;
-margin-bottom: -1rem;
+margin-bottom: -.5rem;
 background: 50% 100% / 50% 50% no-repeat
               radial-gradient(ellipse at bottom, #fff, transparent, transparent);
 -webkit-background-clip: text;
@@ -32,10 +32,7 @@ color: transparent;
 animation: reveal 3500ms ease-in-out forwards 300ms;
 
   @keyframes reveal {
-    80%{
-      letter-spacing: 15px;
-    }
-    100% {
+    80% {
       background-size: 200% 200%;
     }
   }
