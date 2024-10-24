@@ -111,7 +111,7 @@ margin: 0 auto;
 padding-bottom: 2%;
 text-align: justify;
 margin-top: -4rem;
-margin-bottom: 2rem;
+margin-bottom: -1rem;
 
 @media only screen and (max-width : 460px)  {
   width: 80%;

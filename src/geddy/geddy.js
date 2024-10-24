@@ -2,7 +2,7 @@ import React from 'react';
 import GeddyCard from './geddycard';
 import './geddy.css';
 import Nav from '../app/nav';
-import { GeddyStyledHeader, GeddyTitle, GeddySubtitle, GeddyFooter, GeddyFooterSpan1, GeddyFooterSpan2 } from './styles-geddy';
+import { GeddyStyledHeader, GeddyTitle, GeddySubtitle, GeddyFooter, GeddyFooterDiv1, GeddyFooterDiv2 } from './styles-geddy';
 
 export default class Geddy extends React.Component {
   constructor(props) {
@@ -43,7 +43,7 @@ export default class Geddy extends React.Component {
        </div>
 
        <GeddyFooter>
-            <GeddyFooterSpan1>Outsider NewsLetter Property of:</GeddyFooterSpan1><GeddyFooterSpan2>Eleanor Dragon</GeddyFooterSpan2>
+            <GeddyFooterDiv1>Outsider NewsLetter Property of :</GeddyFooterDiv1><GeddyFooterDiv2>Eleanor Dragon</GeddyFooterDiv2>
        </GeddyFooter>
        </div>
     );

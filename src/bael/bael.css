@@ -6,6 +6,7 @@ background-image: url("https://cdn.pixabay.com/photo/2020/01/09/01/00/eyes-47515
 }
 
 .bael-body {
+opacity: 98%;
 width: 85vw;
 height: 100%;
 border: solid 2px #197278;

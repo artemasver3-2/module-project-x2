@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
  export const BaelHeader = styled.header`
   background-color: #000000;
+  opacity: 98%;
   min-height: 15vh;
   display: flex;
   flex-direction: column;
@@ -19,7 +20,7 @@ import styled from 'styled-components';
   color: #197278;
   text-decoration: none;
   margin-top: 1rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 4rem;
   transition: 1s ease-in-out;
   -webkit-text-stroke: 2px #d6f4f4;
   font-variation-settings: 'wght' 800, 'ital' 1;
@@ -32,7 +33,7 @@ import styled from 'styled-components';
 
   &:hover,
   &:focus {
-    transform: rotate(4deg);
+    transform: rotate(2deg);
     font-variation-settings: 'wght' 100, 'ital' 0;
     text-shadow: 2px 2px 0px #197278, 5px 5px 0px #197278;
   }
@@ -61,7 +62,8 @@ export const BaelSubtitle = styled.h2`
 
 export const BaelFooter = styled.footer`
   background-color: #000000;
-  min-height: 15vh;
+  min-height: 12vh;
+  opacity: 98%;
   border-top: 2px solid #197278;
   display: flex;
   flex-direction: column;
@@ -74,11 +76,13 @@ export const BaelFooter = styled.footer`
   }
 `;
 
-export const BaelFooterSpan1 = styled.span`
+export const BaelFooterDiv1 = styled.div`
   font-size: 1.75rem;
   font-family: Bebas Neue;
   color: white;
   letter-spacing: 2px;
+  margin-bottom: 0.75rem;
+  margin-top: -1rem;
 
   @media only screen and (max-width: 460px) {
     font-size: 1rem;
@@ -87,7 +91,7 @@ export const BaelFooterSpan1 = styled.span`
   }
 `;
 
-export const BaelFooterSpan2 = styled.span`
+export const BaelFooterDiv2 = styled.div`
   font-size: 2rem;
   font-family: Pacifico;
   color: #197278;
@@ -107,7 +111,7 @@ margin: 0 auto;
 padding-bottom: 2%;
 text-align: justify;
 margin-top: -4rem;
-margin-bottom: 2rem;
+margin-bottom: -1rem;
 
 @media only screen and (max-width : 460px)  {
   width: 80%;
@@ -121,7 +125,8 @@ font-size: 3rem;
 padding: 1%;
 font-family: Bebas Neue, sans-serif;
 letter-spacing: 5px;
-margin-bottom: 1.75rem;
+margin-bottom: -1.4rem;
+margin-top: 2rem;
 text-align: center;
 
 @media only screen and (max-width : 460px)  {
@@ -138,7 +143,6 @@ font-family: Kristi;
 color: #197278;
 height: 10%;
 width: 55%;
-margin-top: -3.75rem;
 margin-left: 27rem;
 text-align: center;
 margin-bottom: 1rem;
@@ -150,7 +154,7 @@ margin-bottom: 1rem;
 };
 `;
 
-export const BaelCardInfo = styled.span`
+export const BaelCardInfo = styled.div`
 color: white;
 font-size: 1rem;
 padding: 1rem;

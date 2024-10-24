@@ -7,8 +7,8 @@ import {
   BaelTitle,
   BaelSubtitle,
   BaelFooter,
-  BaelFooterSpan1,
-  BaelFooterSpan2,
+  BaelFooterDiv1,
+  BaelFooterDiv2,
 } from './syles-bael';
 
 export default class Bael extends React.Component {
@@ -48,8 +48,8 @@ export default class Bael extends React.Component {
         </div>
 
         <BaelFooter>
-          <BaelFooterSpan1>Outsider NewsLetter Property of:</BaelFooterSpan1>
-          <BaelFooterSpan2>Eleanor Dragon</BaelFooterSpan2>
+          <BaelFooterDiv1>Outsider NewsLetter Property of :</BaelFooterDiv1>
+          <BaelFooterDiv2>Eleanor Dragon</BaelFooterDiv2>
         </BaelFooter>
       </div>
     );
