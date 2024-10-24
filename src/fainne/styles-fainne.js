@@ -9,6 +9,7 @@ export const StyledFainneHeader = styled.header`
   align-items: center;
   justify-content: center;
   border-bottom: 2px solid #a71515;
+  opacity: 95;
 
   @media only screen and (max-width: 460px) {
     min-height: 15vh;

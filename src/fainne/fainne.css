@@ -2,7 +2,7 @@
 
 
 .fainne-page-div {
-background-image: url("https://png.pngtree.com/png-clipart/20230926/original/pngtree-bronzeoutlined-black-leaves-and-whitered-roses-in-a-repeating-floral-pattern-png-image_12879900.png");
+background-image: url("https://i.pinimg.com/736x/9f/9d/ca/9f9dcaafede11515a0330243d3956a92.jpg");
 }
 
 .fainne-body {
@@ -92,7 +92,7 @@ margin-bottom: 2rem;
 
 @media only screen and (min-width : 60px)  {
     .fainne-page-div {
-        background-size: 35%;
-        background-image: url("https://png.pngtree.com/png-clipart/20230926/original/pngtree-bronzeoutlined-black-leaves-and-whitered-roses-in-a-repeating-floral-pattern-png-image_12879900.png");
+        background-size: 25%;
+        background-image: url("https://i.pinimg.com/736x/9f/9d/ca/9f9dcaafede11515a0330243d3956a92.jpg");
     }
   };
