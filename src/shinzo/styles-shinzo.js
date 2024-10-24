@@ -19,13 +19,12 @@ export const ShinzoTitle = styled.h1`
   position: relative;
   font-family: Bebas Neue, Arial, sans-serif;
   font-size: 4.5rem;
-  font-weight: 700;
   color: #011120;
-  letter-spacing: 1rem;
+  letter-spacing: .85rem;
   text-transform: uppercase;
   margin-bottom: 4rem;
   margin-top: 3.75rem;
-  perspective: 500px;
+  perspective: 700px;
 
   &::before,
   &::after {
@@ -45,7 +44,7 @@ export const ShinzoTitle = styled.h1`
 
   &::after {
     opacity: 0.65;
-    filter: blur(0.02em);
+    filter: blur(0.01em);
     transform: translate(-50%, -50%) rotateX(31deg);
     animation: floatBelow 3.5s ease-in-out infinite;
     -webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
@@ -79,7 +78,8 @@ export const ShinzoSubtitle = styled.h2`
   font-size: 2rem;
   font-style: italic;
   font-family: Kristi;
-  color: #011120;
+  font-weight: 300;
+  color: #0b5394;
   margin-top: -2.5rem;
   margin-left: 20rem;
   letter-spacing: 2px;
@@ -92,7 +92,7 @@ export const ShinzoSubtitle = styled.h2`
 
 export const ShinzoFooter = styled.footer`
   background-color: #9ec0e9;
-  min-height: 15vh;
+  min-height: 12vh;
   border-top: 2px solid #011120;
   display: flex;
   flex-direction: column;
@@ -105,11 +105,13 @@ export const ShinzoFooter = styled.footer`
   }
 `;
 
-export const ShinzoFooterSpan1 = styled.span`
+export const ShinzoFooterDiv1 = styled.div`
   font-size: 1.75rem;
   font-family: Bebas Neue;
   color: #011120;
-  letter-spacing: 2px;
+  letter-spacing: 2px; 
+  margin-bottom: 0.75rem;
+  margin-top: -1rem;
 
   @media only screen and (max-width: 460px) {
     font-size: 1rem;
@@ -118,7 +120,7 @@ export const ShinzoFooterSpan1 = styled.span`
   }
 `;
 
-export const ShinzoFooterSpan2 = styled.span`
+export const ShinzoFooterDiv2 = styled.div`
   font-size: 2rem;
   font-family: Pacifico;
   color: white;
@@ -138,7 +140,7 @@ margin: 0 auto;
 padding-bottom: 2%;
 text-align: justify;
 margin-top: -4rem;
-margin-bottom: 2rem;
+margin-bottom: -1rem;
 
 @media only screen and (max-width : 460px)  {
   width: 80%;
@@ -153,6 +155,7 @@ padding: 1%;
 font-family: Bebas Neue, sans-serif;
 letter-spacing: 10px;
 margin-bottom: 1.75rem;
+margin-top: 2rem;
 text-align: center;
 
 @media only screen and (max-width : 460px)  {
@@ -168,10 +171,9 @@ font-family: Kristi;
 color: #0b5394;
 height: 10%;
 width: 55%;
-margin-top: -3.75rem;
-margin-left: 30rem;
+margin-top: -3.25rem;
+margin-left: 28rem;
 text-align: center;
-margin-bottom: 1rem;
 
 @media only screen and (max-width : 460px)  {
   font-size: 1.5rem;
@@ -180,7 +182,7 @@ margin-bottom: 1rem;
 };
 `;
 
-export const ShinzoCardInfo = styled.span`
+export const ShinzoCardInfo = styled.div`
 color: black;
 font-size: 1rem;
 padding: 1rem;

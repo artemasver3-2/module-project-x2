@@ -2,7 +2,7 @@ import React from 'react';
 import ShinzoCard from './shinzocard';
 import './shinzo.css';
 import Nav from '../app/nav';
-import { ShinzoHeader,  ShinzoTitle, ShinzoSubtitle, ShinzoFooter, ShinzoFooterSpan1, ShinzoFooterSpan2 } from './styles-shinzo';
+import { ShinzoHeader,  ShinzoTitle, ShinzoSubtitle, ShinzoFooter, ShinzoFooterDiv1, ShinzoFooterDiv2 } from './styles-shinzo';
 
 export default class Shinzo extends React.Component {
   constructor(props) {
@@ -41,10 +41,10 @@ export default class Shinzo extends React.Component {
         </div>
 
         <ShinzoFooter>
-          <ShinzoFooterSpan1>
-            Outsider NewsLetter Property of:
-          </ShinzoFooterSpan1>
-          <ShinzoFooterSpan2>Eleanor Dragon</ShinzoFooterSpan2>
+          <ShinzoFooterDiv1>
+            Outsider NewsLetter Property of :
+          </ShinzoFooterDiv1>
+          <ShinzoFooterDiv2>Eleanor Dragon</ShinzoFooterDiv2>
         </ShinzoFooter>
       </div>
     );
