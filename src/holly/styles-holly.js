@@ -32,7 +32,10 @@ color: transparent;
 animation: reveal 3500ms ease-in-out forwards 300ms;
 
   @keyframes reveal {
-    80% {
+    80%{
+      
+    }
+    100% {
       background-size: 200% 200%;
     }
   }
