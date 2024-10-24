@@ -30,7 +30,6 @@ font-size: 2.75rem;
 color: white;
 letter-spacing: .5rem;
 margin-top: -1px;
-margin-bottom: 1rem;
 
 @media only screen and (max-width : 460px)  {
   font-size: 1.5rem;
@@ -51,7 +50,7 @@ padding-bottom: .5rem;
 };
 `;
 
-const StyledCharacterSpan = styled.span`
+const StyledCharacterDiv2 = styled.div`
 color: white;
 font-size: 1rem;
 padding: 1rem;
@@ -91,7 +90,7 @@ export default class CharacterCard extends React.Component {
         <StyledCharacterDiv>
             <StyledCharacterName>{this.props.name}</StyledCharacterName>
             <StyledCharacterSection>
-                <StyledCharacterSpan>{this.props.info}</StyledCharacterSpan>
+                <StyledCharacterDiv2>{this.props.info}</StyledCharacterDiv2>
             </StyledCharacterSection>
             <StyledCharacterLink to={this.props.link}>READ MORE ABOUT {this.props.name.toUpperCase()}</StyledCharacterLink>
         </StyledCharacterDiv>

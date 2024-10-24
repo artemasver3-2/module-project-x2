@@ -2,7 +2,7 @@ import React from 'react';
 import FainneCard from './fainnecard';
 import './fainne.css';
 import Nav from '../app/nav';
-import { StyledFainneHeader, FainneSubtitle, FainneFooter, FainneFooterSpan1, FainneFooterSpan2 } from './styles-fainne';
+import { StyledFainneHeader, FainneSubtitle, FainneFooter, FainneFooterDiv1, FainneFooterDiv2 } from './styles-fainne';
 
 export default class FainneUron extends React.Component {
   constructor(props) {
@@ -43,10 +43,10 @@ export default class FainneUron extends React.Component {
         </div>
 
         <FainneFooter>
-          <FainneFooterSpan1>
+          <FainneFooterDiv1>
             Outsider NewsLetter Property of:
-          </FainneFooterSpan1>
-          <FainneFooterSpan2>Eleanor Dragon</FainneFooterSpan2>
+          </FainneFooterDiv1>
+          <FainneFooterDiv2>Eleanor Dragon</FainneFooterDiv2>
         </FainneFooter>
       </div>
     );

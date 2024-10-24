@@ -23,8 +23,9 @@ padding: 1%;
 font-family: Bebas Neue, sans-serif;
 letter-spacing: 2px;
 margin-bottom: 1.75rem;
-margin-top: 1.5rem;
+margin-top: 1.75rem;
 text-align: center;
+margin-bottom: 2.5rem;
 
 @media only screen and (max-width : 460px)  {
   font-size: 1.5rem;
@@ -43,7 +44,6 @@ width: 55%;
 margin-top: -3.75rem;
 margin-left: 30rem;
 text-align: center;
-margin-bottom: 1rem;
 
 @media only screen and (max-width : 460px)  {
   margin-left: .5rem;
@@ -53,7 +53,7 @@ margin-bottom: 1rem;
 
 `;
 
-const StyledCardInfo = styled.span`
+const StyledCardInfo = styled.div`
 color: white;
 font-size: 1rem;
 padding: 1rem;

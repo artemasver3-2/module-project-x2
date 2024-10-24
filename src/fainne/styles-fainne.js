@@ -23,7 +23,7 @@ export const FainneSubtitle = styled.h2`
   font-style: italic;
   font-family: Kristi;
   color: white;
-  margin-top: -4.5rem;
+  margin-top: -1.5rem;
   margin-left: 20rem;
   letter-spacing: 2px;
 
@@ -35,7 +35,7 @@ export const FainneSubtitle = styled.h2`
 
 export const FainneFooter = styled.footer`
   background-color: #000000;
-  min-height: 15vh;
+  min-height: 12vh;
   border-top: 2px solid #a71515;
   display: flex;
   flex-direction: column;
@@ -48,7 +48,7 @@ export const FainneFooter = styled.footer`
   }
 `;
 
-export const FainneFooterSpan1 = styled.span`
+export const FainneFooterDiv1 = styled.div`
   font-size: 1.75rem;
   font-family: Bebas Neue;
   color: white;
@@ -61,13 +61,12 @@ export const FainneFooterSpan1 = styled.span`
   }
 `;
 
-export const FainneFooterSpan2 = styled.span`
+export const FainneFooterDiv2 = styled.div`
   font-size: 2rem;
   font-family: Pacifico;
   color: #a71515;
   letter-spacing: 2px;
-  margin-top: -12px;
-  margin-bottom: -1rem;
+
 
   @media only screen and (max-width: 460px) {
     font-size: 1rem;
@@ -81,7 +80,7 @@ margin: 0 auto;
 padding-bottom: 2%;
 text-align: justify;
 margin-top: -4rem;
-margin-bottom: 2rem;
+margin-bottom: -1rem;
 
 @media only screen and (max-width : 460px)  {
   width: 80%;
@@ -96,6 +95,7 @@ padding: 1%;
 font-family: Bebas Neue, sans-serif;
 letter-spacing: 5px;
 margin-bottom: 1.75rem;
+margin-top: 2rem;
 text-align: center;
 
 
@@ -112,10 +112,9 @@ font-size: 2.5rem;
 font-family: Kristi;
 height: 10%;
 width: 55%;
-margin-top: -3.75rem;
+margin-top: -3.3rem;
 margin-left: 27rem;
 text-align: center;
-margin-bottom: 1rem;
 
 @media only screen and (max-width : 460px)  {
   font-size: 1.5rem;
@@ -124,7 +123,7 @@ margin-bottom: 1rem;
 };
 `;
 
-export const FainneCardInfo = styled.span`
+export const FainneCardInfo = styled.div`
 color: white;
 font-size: 1rem;
 padding: 1rem;

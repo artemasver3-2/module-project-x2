@@ -23,7 +23,7 @@ font-size: 4.5rem;
 font-family: Bebas Neue;
 color: #62ab37;
 text-decoration: none;
-margin-top: .5rem;
+margin-top: .75rem;
 
 @media only screen and (max-width : 460px)  {
   font-size: 2.5rem;
@@ -37,7 +37,7 @@ font-size: 2rem;
 font-style: italic;
 font-family: Kristi;
 color: white;
-margin-top: -4.5rem;
+margin-top: -.95rem;
 margin-left: 20rem;
 letter-spacing: 2px;
 

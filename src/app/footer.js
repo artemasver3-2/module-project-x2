@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const StyledFooter = styled.footer`
 background-color: #000000;
-min-height: 15vh;
+min-height: 12vh;
 border-top: 2px solid #62AB37;
 display: flex;
 flex-direction: column;
@@ -18,11 +18,12 @@ justify-content: center;
 };
 `;
 
-const StyledFooterSpan1 = styled.span`
+const StyledFooterDiv1 = styled.div`
 font-size: 1.75rem;
 font-family: Bebas Neue;
 color: white;
 letter-spacing: 2px;
+margin-bottom: .75rem;
 
 @media only screen and (max-width : 460px)  {
   font-size: 1rem;
@@ -31,13 +32,12 @@ letter-spacing: 2px;
 };
 `;
 
-const StyledFooterSpan2 = styled.span`
+const StyledFooterDiv2 = styled.div`
 font-size: 2rem;
 font-family: Pacifico;
 color: #62ab37;
 letter-spacing: 2px;
 margin-top: -12px;
-margin-bottom:-1rem;
 
 @media only screen and (max-width : 460px)  {
   font-size: 1rem;
@@ -55,7 +55,7 @@ export default class Footer extends React.Component {
   render() {
     return (
        <StyledFooter>
-        <StyledFooterSpan1>Outsider NewsLetter Property of:</StyledFooterSpan1><StyledFooterSpan2>Eleanor Dragon</StyledFooterSpan2>
+        <StyledFooterDiv1>Outsider NewsLetter Property of :</StyledFooterDiv1><StyledFooterDiv2>Eleanor Dragon</StyledFooterDiv2>
        </StyledFooter>
     );
   }

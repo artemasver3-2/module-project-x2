@@ -6,8 +6,8 @@ import {
   AlexHeader,
   AlexSubtitle,
   AlexFooter,
-  AlexFooterSpan1,
-  AlexFooterSpan2,
+  AlexFooterDiv1,
+  AlexFooterDiv2,
 } from './styled-alex';
 
 export default class AlexDrake extends React.Component {
@@ -51,8 +51,8 @@ export default class AlexDrake extends React.Component {
         </div>
 
         <AlexFooter>
-          <AlexFooterSpan1>Outsider NewsLetter Property of:</AlexFooterSpan1>
-          <AlexFooterSpan2>Eleanor Dragon</AlexFooterSpan2>
+          <AlexFooterDiv1>Outsider NewsLetter Property of :</AlexFooterDiv1>
+          <AlexFooterDiv2>Eleanor Dragon</AlexFooterDiv2>
         </AlexFooter>
       </div>
     );
