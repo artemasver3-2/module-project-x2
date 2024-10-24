@@ -2,13 +2,13 @@
 
 
 .isa-page-div {
-background-image: url("https://i.ibb.co/1qwGDXw/400337798-1030390304896888-2918608143978703467-n.png");
+background-image: url("https://i.ibb.co/M7ysvJC/depositphotos-96396216-stock-illustration-seamless-pattern-with-cherry-tree.webp");
 }
 
 .isa-body {
 width: 85vw;
 height: 100%;
-border: solid 2px #C76BBE;
+border: solid 2px #6d1845;
 margin: 0 auto;
 margin-top: 1%;
 background-color: black;
@@ -20,7 +20,7 @@ margin-bottom: 2rem;
 
 @media only screen and (min-width : 60px)  {
     .isa-page-div {
-        background-size: 25%;
-        background-image: url("https://i.ibb.co/1qwGDXw/400337798-1030390304896888-2918608143978703467-n.png");
+        background-size: 20%;
+        background-image: url("https://i.ibb.co/M7ysvJC/depositphotos-96396216-stock-illustration-seamless-pattern-with-cherry-tree.webp");
     }
   };

@@ -13,6 +13,7 @@ import ScrollToTop from './scroll';
 
 ///// listen bitch import styled components out of files at some point ok thx
 //its done, yw
+//you forgot APP AAAAAAAAAAA
 
 class App extends React.Component {
   constructor() {
