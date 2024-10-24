@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ShinzoHeader = styled.header`
-  min-height: 15vh;
+  min-height: 18vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,72 +15,13 @@ export const ShinzoHeader = styled.header`
   }
 `;
 
-export const ShinzoTitle = styled.h1`
-  position: relative;
-  font-family: Bebas Neue, Arial, sans-serif;
-  font-size: 4.5rem;
-  color: #011120;
-  letter-spacing: .85rem;
-  text-transform: uppercase;
-  margin-bottom: 4rem;
-  margin-top: 3.75rem;
-  perspective: 700px;
-
-  &::before,
-  &::after {
-    content: attr(aria-label);
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -50%);
-    text-shadow: 0.01em 0.01em 0.01em rgba(0, 0, 0, 0.3);
-  }
-
-  &::before {
-    animation: floatAbove 3.5s ease-in-out infinite;
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
-  }
-
-  &::after {
-    opacity: 0.65;
-    filter: blur(0.01em);
-    transform: translate(-50%, -50%) rotateX(31deg);
-    animation: floatBelow 3.5s ease-in-out infinite;
-    -webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
-    clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
-  }
-
-  @keyframes floatAbove {
-    50% {
-      transform: translate(-50%, -60%);
-      -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 75%);
-      clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 60%);
-    }
-  }
-
-  @keyframes floatBelow {
-    50% {
-      transform: translate(-50%, -60%) rotateX(10deg);
-      -webkit-clip-path: polygon(0% 75%, 100% 75%, 100% 100%, 0% 100%);
-      clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
-    }
-  }
-
-  @media only screen and (max-width: 460px) {
-    font-size: 2.5rem;
-    margin-bottom: 3.75rem;
-    margin-top: 2px;
-  }
-`;
-
 export const ShinzoSubtitle = styled.h2`
   font-size: 2rem;
   font-style: italic;
   font-family: Kristi;
   font-weight: 300;
   color: #0b5394;
-  margin-top: -2.5rem;
+  margin-top: 3rem;
   margin-left: 20rem;
   letter-spacing: 2px;
 

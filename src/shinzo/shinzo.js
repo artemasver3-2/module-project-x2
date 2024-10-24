@@ -2,7 +2,7 @@ import React from 'react';
 import ShinzoCard from './shinzocard';
 import './shinzo.css';
 import Nav from '../app/nav';
-import { ShinzoHeader,  ShinzoTitle, ShinzoSubtitle, ShinzoFooter, ShinzoFooterDiv1, ShinzoFooterDiv2 } from './styles-shinzo';
+import { ShinzoHeader, ShinzoSubtitle, ShinzoFooter, ShinzoFooterDiv1, ShinzoFooterDiv2 } from './styles-shinzo';
 
 export default class Shinzo extends React.Component {
   constructor(props) {
@@ -13,7 +13,12 @@ export default class Shinzo extends React.Component {
     return (
       <div className="shinzo-page-div">
         <ShinzoHeader>
-          <ShinzoTitle aria-label="TheOutsiders"></ShinzoTitle>
+        <section>
+          <div class="content">
+            <h1>The&nbsp;Outsiders</h1>
+            <h1>The&nbsp;Outsiders</h1>
+           </div>
+        </section>
           <ShinzoSubtitle>Ebixia's most wanted heros</ShinzoSubtitle>
           <Nav />
         </ShinzoHeader>
