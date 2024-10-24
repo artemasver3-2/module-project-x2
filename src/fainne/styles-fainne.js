@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const StyledFainneHeader = styled.header`
   background-color: #000000;
   min-height: 15vh;
@@ -16,7 +15,6 @@ export const StyledFainneHeader = styled.header`
     margin-bottom: 0.5rem;
   }
 `;
-
 
 export const FainneSubtitle = styled.h2`
   font-size: 2rem;
@@ -67,70 +65,68 @@ export const FainneFooterDiv2 = styled.div`
   color: #a71515;
   letter-spacing: 2px;
 
-
   @media only screen and (max-width: 460px) {
     font-size: 1rem;
   }
 `;
 
 export const FainneStyledCard = styled.div`
-width: 80%;
-height: 100%;
-margin: 0 auto;
-padding-bottom: 2%;
-text-align: justify;
-margin-top: -4rem;
-margin-bottom: -1rem;
-
-@media only screen and (max-width : 460px)  {
   width: 80%;
-  padding-bottom: 1rem;
-};
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+  text-align: justify;
+  margin-top: -4rem;
+  margin-bottom: -1rem;
+
+  @media only screen and (max-width: 460px) {
+    width: 80%;
+    padding-bottom: 1rem;
+  }
 `;
 
 export const FainneTitleCard = styled.h3`
-color: white;
-font-size: 3rem;
-padding: 1%;
-font-family: Bebas Neue, sans-serif;
-letter-spacing: 5px;
-margin-bottom: 1.75rem;
-margin-top: 2rem;
-text-align: center;
+  color: white;
+  font-size: 3rem;
+  padding: 1%;
+  font-family: Bebas Neue, sans-serif;
+  letter-spacing: 5px;
+  margin-bottom: 1.75rem;
+  margin-top: 2rem;
+  text-align: center;
 
-
-@media only screen and (max-width : 460px)  {
-  font-size: 2rem;
-  margin-top: 5rem;
-  margin-bottom: 3rem;
-};
+  @media only screen and (max-width: 460px) {
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
 `;
 
 export const FainneSubtitleCard = styled.h4`
-color: #A71515;
-font-size: 2.5rem;
-font-family: Kristi;
-height: 10%;
-width: 55%;
-margin-top: -3.3rem;
-margin-left: 27rem;
-text-align: center;
+  color: #a71515;
+  font-size: 2.5rem;
+  font-family: Kristi;
+  height: 10%;
+  width: 55%;
+  margin-top: -3.3rem;
+  margin-left: 27rem;
+  text-align: center;
 
-@media only screen and (max-width : 460px)  {
-  font-size: 1.5rem;
-  margin-left: 4rem;
-  margin-bottom: .5rem;
-};
+  @media only screen and (max-width: 460px) {
+    font-size: 1.5rem;
+    margin-left: 4rem;
+    margin-bottom: 0.5rem;
+  }
 `;
 
 export const FainneCardInfo = styled.div`
-color: white;
-font-size: 1rem;
-padding: 1rem;
-font-family: Lexend, sans-serif;
-letter-spacing: 2px; 
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+  font-family: Lexend, sans-serif;
+  letter-spacing: 2px;
 
-@media only screen and (max-width : 460px)  {
-  font-size: .75rem;
-};
+  @media only screen and (max-width: 460px) {
+    font-size: 0.75rem;
+  }
 `;
