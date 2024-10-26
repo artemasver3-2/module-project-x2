@@ -50,7 +50,7 @@ export const ShinzoFooterDiv1 = styled.div`
   font-size: 1.75rem;
   font-family: Bebas Neue;
   color: #011120;
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
   margin-bottom: 0.75rem;
   margin-top: -1rem;
 
@@ -75,62 +75,62 @@ export const ShinzoFooterDiv2 = styled.div`
 `;
 
 export const ShinzoStyledCard = styled.div`
-width: 80%;
-height: 100%;
-margin: 0 auto;
-padding-bottom: 2%;
-text-align: justify;
-margin-top: -4rem;
-margin-bottom: -1rem;
-
-@media only screen and (max-width : 460px)  {
   width: 80%;
-  padding-bottom: 1rem;
-};
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+  text-align: justify;
+  margin-top: -4rem;
+  margin-bottom: -1rem;
+
+  @media only screen and (max-width: 460px) {
+    width: 80%;
+    padding-bottom: 1rem;
+  }
 `;
 
 export const ShinzoTitleCard = styled.h3`
-color: #011120;
-font-size: 3rem;
-padding: 1%;
-font-family: Bebas Neue, sans-serif;
-letter-spacing: 10px;
-margin-bottom: 1.75rem;
-margin-top: 2rem;
-text-align: center;
+  color: #011120;
+  font-size: 3rem;
+  padding: 1%;
+  font-family: Bebas Neue, sans-serif;
+  letter-spacing: 10px;
+  margin-bottom: 1.75rem;
+  margin-top: 2rem;
+  text-align: center;
 
-@media only screen and (max-width : 460px)  {
-  font-size: 1.5rem;
-  margin-top: 5rem;
-  margin-bottom: 3rem;
-};
+  @media only screen and (max-width: 460px) {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
 `;
 
 export const ShinzoSubtitleCard = styled.h4`
-font-size: 2.5rem;
-font-family: Kristi;
-color: #0b5394;
-height: 10%;
-width: 55%;
-margin-top: -3.25rem;
-margin-left: 28rem;
-text-align: center;
+  font-size: 2.5rem;
+  font-family: Kristi;
+  color: #0b5394;
+  height: 10%;
+  width: 55%;
+  margin-top: -3.25rem;
+  margin-left: 28rem;
+  text-align: center;
 
-@media only screen and (max-width : 460px)  {
-  font-size: 1.5rem;
-  margin-left: 4rem;
-  margin-bottom: .5rem;
-};
+  @media only screen and (max-width: 460px) {
+    font-size: 1.5rem;
+    margin-left: 4rem;
+    margin-bottom: 0.5rem;
+  }
 `;
 
 export const ShinzoCardInfo = styled.div`
-color: black;
-font-size: 1rem;
-padding: 1rem;
-font-family: Lexend, sans-serif;
-letter-spacing: 2px; 
+  color: black;
+  font-size: 1rem;
+  padding: 1rem;
+  font-family: Lexend, sans-serif;
+  letter-spacing: 2px;
 
-@media only screen and (max-width : 460px)  {
-  font-size: .75rem;
-};
+  @media only screen and (max-width: 460px) {
+    font-size: 0.75rem;
+  }
 `;
