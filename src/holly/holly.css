@@ -18,6 +18,9 @@ border-radius: 5px;
 margin-bottom: 2rem;
 }
 
+.italics {
+    font-style: italic;
+  }
 
 canvas {
     display:block;
