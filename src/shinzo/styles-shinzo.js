@@ -80,6 +80,7 @@ export const ShinzoStyledCard = styled.div`
   margin: 0 auto;
   padding-bottom: 2%;
   text-align: justify;
+  text-align-last: center;
   margin-top: -4rem;
   margin-bottom: -1rem;
 

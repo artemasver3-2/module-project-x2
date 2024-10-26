@@ -33,7 +33,9 @@
   font-size: 1.5em;
   font-family: Bebas Neue;
   margin-bottom: 0.5rem;
-  text-align: center;
+  text-align: justify;
+  text-align-last: center;
+  :center ;
   /* Color fallback */
   color: #a71515;
   -webkit-background-clip: text;

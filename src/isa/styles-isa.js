@@ -54,7 +54,8 @@ export const IsaFooter = styled.footer`
   justify-content: center;
 
   @media only screen and (max-width: 460px) {
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
     min-height: 10vh;
   }
 `;
@@ -93,9 +94,10 @@ export const IsaStyledCard = styled.div`
   margin: 0 auto;
   padding-bottom: 2%;
   text-align: justify;
+  text-align-last: center;
+  :justify ;
   margin-top: -2rem;
   margin-bottom: -1rem;
-
 
   @media only screen and (max-width: 460px) {
     width: 80%;
@@ -109,8 +111,9 @@ export const IsaTitleCard = styled.h3`
   padding: 1%;
   font-family: Bebas Neue, sans-serif;
   letter-spacing: 5px;
-  text-align: center;
- 
+  text-align: justify;
+  text-align-last: center;
+  :center ;
 
   @media only screen and (max-width: 460px) {
     font-size: 1.5rem;
@@ -128,7 +131,9 @@ export const IsaSubtitleCard = styled.h4`
   width: 55%;
   margin-top: -1.3rem;
   margin-left: 25rem;
-  text-align: center;
+  text-align: justify;
+  text-align-last: center;
+  :center ;
 
   @media only screen and (max-width: 460px) {
     font-size: 1.5rem;

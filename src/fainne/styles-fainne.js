@@ -41,7 +41,8 @@ export const FainneFooter = styled.footer`
   justify-content: center;
 
   @media only screen and (max-width: 460px) {
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
     min-height: 10vh;
   }
 `;
@@ -76,6 +77,8 @@ export const FainneStyledCard = styled.div`
   margin: 0 auto;
   padding-bottom: 2%;
   text-align: justify;
+  text-align-last: center;
+  :justify ;
   margin-top: -4rem;
   margin-bottom: -1rem;
 
@@ -93,7 +96,9 @@ export const FainneTitleCard = styled.h3`
   letter-spacing: 5px;
   margin-bottom: 1.75rem;
   margin-top: 2rem;
-  text-align: center;
+  text-align: justify;
+  text-align-last: center;
+  :center ;
 
   @media only screen and (max-width: 460px) {
     font-size: 2rem;
@@ -110,7 +115,9 @@ export const FainneSubtitleCard = styled.h4`
   width: 55%;
   margin-top: -3.3rem;
   margin-left: 27rem;
-  text-align: center;
+  text-align: justify;
+  text-align-last: center;
+  :center ;
 
   @media only screen and (max-width: 460px) {
     font-size: 1.5rem;

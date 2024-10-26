@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
- export const BaelHeader = styled.header`
+export const BaelHeader = styled.header`
   background-color: #000000;
   opacity: 98%;
   min-height: 15vh;
@@ -16,7 +16,7 @@ import styled from 'styled-components';
   }
 `;
 
- export const BaelTitle = styled.h1`
+export const BaelTitle = styled.h1`
   color: #197278;
   text-decoration: none;
   margin-top: 1rem;
@@ -25,7 +25,9 @@ import styled from 'styled-components';
   -webkit-text-stroke: 2px #d6f4f4;
   font-variation-settings: 'wght' 800, 'ital' 1;
   font-size: 4.5rem;
-  text-align: center;
+  text-align: justify;
+  text-align-last: center;
+  :center ;
   color: transparent;
   font-family: 'Bebas Neue', sans-serif;
   text-shadow: 2.5px 2.5px 0px #197278, 5px 5px 0px #197278;
@@ -71,7 +73,8 @@ export const BaelFooter = styled.footer`
   justify-content: center;
 
   @media only screen and (max-width: 460px) {
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
     min-height: 10vh;
   }
 `;
@@ -105,63 +108,69 @@ export const BaelFooterDiv2 = styled.div`
 `;
 
 export const StyledBaelCard = styled.div`
-width: 80%;
-height: 100%;
-margin: 0 auto;
-padding-bottom: 2%;
-text-align: justify;
-margin-top: -4rem;
-margin-bottom: -1rem;
-
-@media only screen and (max-width : 460px)  {
   width: 80%;
-  padding-bottom: 1rem;
-};
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+  text-align: justify;
+  text-align-last: center;
+  :justify ;
+  margin-top: -4rem;
+  margin-bottom: -1rem;
+
+  @media only screen and (max-width: 460px) {
+    width: 80%;
+    padding-bottom: 1rem;
+  }
 `;
 
 export const BaelTitleCard = styled.h3`
-color: white;
-font-size: 3rem;
-padding: 1%;
-font-family: Bebas Neue, sans-serif;
-letter-spacing: 5px;
-margin-bottom: -1.4rem;
-margin-top: 2rem;
-text-align: center;
+  color: white;
+  font-size: 3rem;
+  padding: 1%;
+  font-family: Bebas Neue, sans-serif;
+  letter-spacing: 5px;
+  margin-bottom: -1.4rem;
+  margin-top: 2rem;
+  text-align: justify;
+  text-align-last: center;
+  :center ;
 
-@media only screen and (max-width : 460px)  {
-  font-size: 1.5rem;
-  margin-top: 5rem;
-  margin-bottom: 3rem;
-};
+  @media only screen and (max-width: 460px) {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
 `;
 
 export const BaelSubtitleCard = styled.h4`
-color: white;
-font-size: 2.5rem;
-font-family: Kristi;
-color: #197278;
-height: 10%;
-width: 55%;
-margin-left: 27rem;
-text-align: center;
-margin-bottom: 1rem;
+  color: white;
+  font-size: 2.5rem;
+  font-family: Kristi;
+  color: #197278;
+  height: 10%;
+  width: 55%;
+  margin-left: 27rem;
+  text-align: justify;
+  text-align-last: center;
+  :center ;
+  margin-bottom: 1rem;
 
-@media only screen and (max-width : 460px)  {
-  font-size: 1.5rem;
-  margin-left: 4rem;
-  margin-bottom: .5rem;
-};
+  @media only screen and (max-width: 460px) {
+    font-size: 1.5rem;
+    margin-left: 4rem;
+    margin-bottom: 0.5rem;
+  }
 `;
 
 export const BaelCardInfo = styled.div`
-color: white;
-font-size: 1rem;
-padding: 1rem;
-font-family: Lexend, sans-serif;
-letter-spacing: 2px; 
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+  font-family: Lexend, sans-serif;
+  letter-spacing: 2px;
 
-@media only screen and (max-width : 460px)  {
-  font-size: .75rem;
-};
+  @media only screen and (max-width: 460px) {
+    font-size: 0.75rem;
+  }
 `;
