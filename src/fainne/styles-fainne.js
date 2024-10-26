@@ -7,7 +7,7 @@ export const StyledFainneHeader = styled.header`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-bottom: 2px solid #a71515;
+  border-bottom: 2px solid #076407;
   opacity: 95;
 
   @media only screen and (max-width: 460px) {
@@ -34,7 +34,7 @@ export const FainneSubtitle = styled.h2`
 export const FainneFooter = styled.footer`
   background-color: #000000;
   min-height: 12vh;
-  border-top: 2px solid #a71515;
+  border-top: 2px solid #076407;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,7 +62,7 @@ export const FainneFooterDiv1 = styled.div`
 export const FainneFooterDiv2 = styled.div`
   font-size: 2rem;
   font-family: Pacifico;
-  color: #a71515;
+  color: #076407;
   letter-spacing: 2px;
 
   @media only screen and (max-width: 460px) {
@@ -103,7 +103,7 @@ export const FainneTitleCard = styled.h3`
 `;
 
 export const FainneSubtitleCard = styled.h4`
-  color: #a71515;
+  color: #076407;
   font-size: 2.5rem;
   font-family: Kristi;
   height: 10%;
