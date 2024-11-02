@@ -17,9 +17,3 @@
   margin-bottom: 2rem;
 }
 
-@media only screen and (min-width: 60px) {
-  .isa-page-div {
-    background-size: 20%;
-    background-image: url('https://i.ibb.co/M7ysvJC/depositphotos-96396216-stock-illustration-seamless-pattern-with-cherry-tree.webp');
-  }
-}

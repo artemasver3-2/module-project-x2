@@ -26,10 +26,3 @@ canvas {
   margin: auto;
   background: #ecf0f1;
 }
-
-@media only screen and (min-width: 60px) {
-  .holly-page-div {
-    background-size: 25%;
-    background-image: url('https://st2.depositphotos.com/2059749/10735/v/600/depositphotos_107357338-stock-illustration-card-suit-symbols-pattern.jpg');
-  }
-}
