@@ -8,7 +8,6 @@ const StyledCard = styled.div`
   padding-bottom: 2%;
   text-align: justify;
   text-align-last: center;
-  :justify ;
   margin-top: -4rem;
 
   @media only screen and (max-width: 460px) {
@@ -27,8 +26,7 @@ const StyledTitleCard = styled.h3`
   margin-top: 1.75rem;
   text-align: justify;
   text-align-last: center;
-  :center ;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.2rem;
 
   @media only screen and (max-width: 460px) {
     font-size: 1.5rem;
@@ -39,8 +37,8 @@ const StyledTitleCard = styled.h3`
 
 const StyledSubtitleCard = styled.h4`
   color: white;
-  font-size: 2.5rem;
-  font-family: Kristi;
+  font-size: 2.2rem;
+  font-family: Birthstone;
   color: #62ab37;
   height: 10%;
   width: 55%;
@@ -48,8 +46,7 @@ const StyledSubtitleCard = styled.h4`
   margin-left: 30rem;
   text-align: justify;
   text-align-last: center;
-  :center ;
-
+  word-spacing: .5rem;
   @media only screen and (max-width: 460px) {
     margin-left: 0.5rem;
     font-size: 1.5rem;

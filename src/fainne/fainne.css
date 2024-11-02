@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kristi&family=Lexend:wght@100..900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Birthstone&display=&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
 
 .fainne-page-div {
   background-image: url('https://i.pinimg.com/736x/9f/9d/ca/9f9dcaafede11515a0330243d3956a92.jpg');
@@ -35,7 +35,6 @@
   margin-bottom: 0.5rem;
   text-align: justify;
   text-align-last: center;
-  :center ;
   /* Color fallback */
   color: #a71515;
   -webkit-background-clip: text;

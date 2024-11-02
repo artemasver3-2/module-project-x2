@@ -31,7 +31,7 @@ export default class AlexDrake extends React.Component {
         <div className="alex-body">
           <AlexCard
             title="Inside The Mind Of"
-            subtitle="Alex [REDACTED] Drake?"
+            subtitle="Alex [redacted] Drake?"
             info="My name is Alex Drake. I’m not sure what to write about myself exactly. I was born and raised in New Ordis. I lived there for most of my life until I began traveling with my team. My immediate family is my mother, father, and little sister. My father is actually Captain Bruce Drake of the New Ordisian government. He’s my hero, but I think this is supposed to be about me. Where I came from. I’m proficient with every kind of bladed weapon you can find on the continent of Ordisia. It sounds like a boast (and is) but it’s also true. It’s what makes me a competent fighter. I learned a lot of my non-combat skills from a man I would later learn was the flawed duplicate of the legendary wizard Aathem. That made me cold and calculating. My parents always taught me that, more than anything in the world, I should look out for people. For everyone. People I know and love, strangers, and even people I may not like. Everyone needs someone to look after them and, if I have the strength to do so, I have a responsibility to be that someone.That makes me a good leader. No pressure, right?"
           />
 

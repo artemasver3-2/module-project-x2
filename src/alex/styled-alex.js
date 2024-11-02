@@ -18,7 +18,7 @@ export const AlexHeader = styled.header`
 export const AlexSubtitle = styled.h2`
   font-size: 2rem;
   font-style: italic;
-  font-family: Kristi;
+  font-family: Birthstone;
   color: white;
   margin-top: -1.5rem;
   margin-bottom: 1.75;
@@ -82,7 +82,6 @@ export const AlexStyledCard = styled.div`
   padding-bottom: 2%;
   text-align: justify;
   text-align-last: center;
-  :justify ;
   margin-top: -4rem;
   margin-bottom: -1rem;
 
@@ -102,7 +101,6 @@ export const AlexTitleCard = styled.h3`
   margin-bottom: 2.3rem;
   text-align: justify;
   text-align-last: center;
-  :center ;
 
   @media only screen and (max-width: 460px) {
     font-size: 1.5rem;
@@ -113,8 +111,8 @@ export const AlexTitleCard = styled.h3`
 
 export const AlexSubtitleCard = styled.h4`
   color: white;
-  font-size: 2.5rem;
-  font-family: Kristi;
+  font-size: 2.2rem;
+  font-family: Birthstone;
   color: #00492e;
   height: 10%;
   width: 55%;
@@ -122,7 +120,7 @@ export const AlexSubtitleCard = styled.h4`
   margin-left: 27rem;
   text-align: justify;
   text-align-last: center;
-  :center ;
+  word-spacing: 5px;
 
   @media only screen and (max-width: 460px) {
     font-size: 1.5rem;

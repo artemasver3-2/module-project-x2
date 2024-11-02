@@ -18,7 +18,7 @@ export const ShinzoHeader = styled.header`
 export const ShinzoSubtitle = styled.h2`
   font-size: 2rem;
   font-style: italic;
-  font-family: Kristi;
+  font-family: Birthstone;
   font-weight: 300;
   color: #0b5394;
   margin-top: 3rem;
@@ -108,14 +108,15 @@ export const ShinzoTitleCard = styled.h3`
 `;
 
 export const ShinzoSubtitleCard = styled.h4`
-  font-size: 2.5rem;
-  font-family: Kristi;
+  font-size: 2.2rem;
+  font-family: Birthstone;
   color: #0b5394;
   height: 10%;
   width: 55%;
   margin-top: -3.25rem;
   margin-left: 28rem;
   text-align: center;
+  word-spacing: 5px;
 
   @media only screen and (max-width: 460px) {
     font-size: 1.5rem;

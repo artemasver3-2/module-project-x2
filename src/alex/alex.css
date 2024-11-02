@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kristi&family=Lexend:wght@100..900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Birthstone&family=Lexend:wght@100..900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
 
 .alex-page-div {
   background-image: url('https://i.ibb.co/9wPgkM8/New-Project-22.png');
@@ -45,12 +45,6 @@
   margin-top: -4.2rem;
   margin-bottom: 1rem;
   margin-left: 5px;
-  transform: rotate(.75deg);
+  transform: rotate(0.75deg);
 }
 
-@media only screen and (min-width: 60px) {
-  .alex-page-div {
-    background-size: 35%;
-    background-image: url('https://i.ibb.co/9wPgkM8/New-Project-22.png');
-  }
-}

@@ -20,7 +20,7 @@ const StyledCharacterDiv = styled.div`
 
   @media only screen and (max-width: 460px) {
     width: 85%;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.2rem;
     margin-top: -1.5rem;
     border-radius: 10px;
   }

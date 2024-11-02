@@ -37,7 +37,7 @@ export const GeddyTitle = styled.h1`
   }
 
   @media only screen and (max-width: 460px) {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-bottom: 3.75rem;
     margin-top: 2px;
   }
@@ -46,7 +46,7 @@ export const GeddyTitle = styled.h1`
 export const GeddySubtitle = styled.h2`
   font-size: 2rem;
   font-style: italic;
-  font-family: Kristi;
+  font-family: Birthstone;
   color: #8a5c24;
   margin-left: 20rem;
   letter-spacing: 2px;
@@ -108,7 +108,6 @@ export const GeddyStyledCard = styled.div`
   padding-bottom: 2%;
   text-align: justify;
   text-align-last: center;
-  :justify ;
   margin-top: -2rem;
   margin-bottom: -1rem;
 
@@ -126,7 +125,6 @@ export const GeddyTitleCard = styled.h3`
   letter-spacing: 5px;
   text-align: justify;
   text-align-last: center;
-  :center ;
 
   @media only screen and (max-width: 460px) {
     font-size: 1.5rem;
@@ -137,8 +135,8 @@ export const GeddyTitleCard = styled.h3`
 
 export const GeddySubtitleCard = styled.h4`
   color: white;
-  font-size: 2.5rem;
-  font-family: Kristi;
+  font-size: 2.2rem;
+  font-family: Birthstone;
   color: #8a5c24;
   height: 10%;
   width: 55%;
@@ -146,8 +144,8 @@ export const GeddySubtitleCard = styled.h4`
   margin-left: 27rem;
   text-align: justify;
   text-align-last: center;
-  :center ;
   margin-bottom: 1rem;
+  word-spacing: 5px;
 
   @media only screen and (max-width: 460px) {
     font-size: 1.5rem;

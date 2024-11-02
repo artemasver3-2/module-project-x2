@@ -19,7 +19,7 @@ export const StyledFainneHeader = styled.header`
 export const FainneSubtitle = styled.h2`
   font-size: 2rem;
   font-style: italic;
-  font-family: Kristi;
+  font-family: Birthstone;
   color: white;
   margin-top: -1.5rem;
   margin-left: 20rem;
@@ -78,7 +78,6 @@ export const FainneStyledCard = styled.div`
   padding-bottom: 2%;
   text-align: justify;
   text-align-last: center;
-  :justify ;
   margin-top: -4rem;
   margin-bottom: -1rem;
 
@@ -98,7 +97,6 @@ export const FainneTitleCard = styled.h3`
   margin-top: 2rem;
   text-align: justify;
   text-align-last: center;
-  :center ;
 
   @media only screen and (max-width: 460px) {
     font-size: 2rem;
@@ -109,15 +107,15 @@ export const FainneTitleCard = styled.h3`
 
 export const FainneSubtitleCard = styled.h4`
   color: #076407;
-  font-size: 2.5rem;
-  font-family: Kristi;
+  font-size: 2.2rem;
+  font-family: Birthstone;
   height: 10%;
   width: 55%;
   margin-top: -3.3rem;
   margin-left: 27rem;
   text-align: justify;
   text-align-last: center;
-  :center ;
+  word-spacing: 5px;
 
   @media only screen and (max-width: 460px) {
     font-size: 1.5rem;

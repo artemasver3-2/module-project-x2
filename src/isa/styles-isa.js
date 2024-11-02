@@ -23,7 +23,7 @@ export const IsaTitle = styled.h1`
   margin-top: 1rem;
 
   @media only screen and (max-width: 460px) {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-bottom: 3.75rem;
     margin-top: 2px;
   }
@@ -32,7 +32,7 @@ export const IsaTitle = styled.h1`
 export const IsaSubtitle = styled.h2`
   font-size: 2rem;
   font-style: italic;
-  font-family: Kristi;
+  font-family: Birthstone;
   color: white;
   margin-left: 20rem;
   letter-spacing: 2px;
@@ -124,8 +124,8 @@ export const IsaTitleCard = styled.h3`
 
 export const IsaSubtitleCard = styled.h4`
   color: white;
-  font-size: 2.5rem;
-  font-family: Kristi;
+  font-size: 2.2rem;
+  font-family: Birthstone;
   color: #c76bbe;
   height: 10%;
   width: 55%;
